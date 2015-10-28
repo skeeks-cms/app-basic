@@ -1,0 +1,37 @@
+{
+    "name": "skeeks/cms-app",
+    "description": "Приложение построенное на базе SkeekS CMS",
+    "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
+    "homepage": "http://cms.skeeks.com",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "http://cms.skeeks.com",
+        "wiki": "http://git.skeeks.com/skeeks/cms/wikis/home",
+        "source": "http://git.skeeks.com/skeeks/cms-app"
+    },
+    "authors": [
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
+        }
+    ],
+    "require": {
+        "skeeks/cms": "*",
+        "skeeks/cms-module-form2": "*",
+        "skeeks/cms-assets-auto-compress": "*",
+        "skeeks/yii2-template-boomerang": "*"
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable" : true,
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "config": {
+        "process-timeout": 1800,
+        "github-oauth": {"github.com":"ff775d641e892c224dfc52db551a8942d16d1674"}
+    }
+}

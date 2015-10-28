@@ -1,0 +1,35 @@
+.navbar-default .navbar-nav > li > a
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carousel-img
+{
+    text-align: center;
+}
+
+.carousel-e
+{
+    background: white;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right
+{
+    box-shadow: -1px 3px 24px 6px silver;
+    background: rgba(255, 255, 255, 0);
+}
+
+.carousel-e .carousel-indicators li
+{
+    box-shadow: -1px 1px 29px 7px silver;
+}
+
+.slogan
+{
+    font-size: 1.7em;
+}
+
+.sx-content p
+{
+    margin-bottom: 10px;
+}
