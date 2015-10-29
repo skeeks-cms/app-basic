@@ -18,7 +18,7 @@
         }
     ],
     "require": {
-        "skeeks/cms": "*",
+        "skeeks/cms": "dev-master",
         "skeeks/cms-module-form2": "*",
         "skeeks/cms-assets-auto-compress": "*",
         "skeeks/yii2-template-boomerang": "*"
