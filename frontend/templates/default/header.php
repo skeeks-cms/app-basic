@@ -22,7 +22,15 @@
                     </button>
 
                     <a class="navbar-brand" href="<?= \yii\helpers\Url::home(); ?>" title="Стоматологическая клиника АДРИА">
-                        <img src="<?= \frontend\assets\AppAsset::getAssetUrl('img/logo.png'); ?>" alt="Стоматологическая клиника АДРИА"> АДРИА
+
+                        <?= \skeeks\cms\cmsWidgets\text\TextCmsWidget::widget([
+                        'namespace'         => 'header-logo',
+                        'text'              => <<<HTML
+                        Лого
+HTML
+        ,
+                    ]); ?>
+
                     </a>
                 </div>
 
