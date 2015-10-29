@@ -31,12 +31,12 @@ JS
             <img src="<?= \frontend\assets\BoomerangThemeAsset::getAssetUrl('images/backgrounds/full-bg-19.jpg'); ?>" class="ls-bg" style="width: 100%;"  alt="Slide background"/>
 
             <!-- Left Text -->
-            <h3 class="ls-l title title-sm strong" style="width:500px; top:25%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">Стоматологическая клиника АДРИА</h3>
+            <h3 class="ls-l title title-sm strong" style="width:500px; top:25%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">Тестовый сайт</h3>
             <h3 class="ls-l subtitle strong-400" style="top:40%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">Недорого, качественно, удобно</h3>
             <p class="ls-l text-standard" style="width:500px; top:55%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:2500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-            Стоматологическая клиника «АДРИА» занимается медецинской деятельностью порядка 16 лет. За это время мы накопили колоссальный опыт, позволяющий нашим пациентам чувствовать себя спокойно и уверенно.
+            Тут любой текст, текст о любой теме тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст
             </p>
-            <a href="<?= \skeeks\cms\models\Tree::find()->where(['code' => 'contacts', 'level' => 1])->one()->url; ?>" class="btn btn-base btn-lg ls-l" style="top:75%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:3500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" title="Откроется страница контактов, на ней можно заполнить форму записи на прием.">Записаться на прием</a>
+            <a href="<?= \skeeks\cms\models\Tree::find()->where(['code' => 'contacts', 'level' => 1])->one()->url; ?>" class="btn btn-base btn-lg ls-l" style="top:75%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:3500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" title="Откроется страница контактов, на ней можно заполнить форму записи на прием.">Контакты</a>
 
         </div>
     </div>
@@ -54,7 +54,7 @@ JS
 					'namespace'         => 'home-title-1',
 					'text'              => <<<HTML
                     <span class="c-white">О нас</span>
-                    <small class="c-white">Адриа — Московская сертифицированная стоматологическая клиника</small>
+                    <small class="c-white">Тестовый сайт — тест, тест, тест, текст, текст, текст, текст</small>
 
 HTML
 	,
@@ -71,7 +71,7 @@ HTML
 					'namespace'         => 'home-text-1',
 					'text'              => <<<HTML
                     <p class="text-center">
-                        Добро пожаловать в клинику Адриа ! Наша стоматологическая клиника занимается всеми видами лечения зубов, общей и косметической стоматологией, ортодонтией, имплантацией и протезированием зубов.
+                        Добро пожаловать на тестовый сайт! Наша стоматологическая клиника занимается всеми видами лечения зубов, общей и косметической стоматологией, ортодонтией, имплантацией и протезированием зубов.
 Диапазон наших стоматологических услуг обширен, но базируется на сохранении естественной структуры зубов, безболезненном лечении и создании непревзойденных естественных результатов в кратчайший промежуток времени. А каждый этап лечения проводится с особой тщательностью и вниманием к деталям.
 
                     </p>

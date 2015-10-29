@@ -81,7 +81,7 @@ HTML
 
 		<div class="row">
 			<div class="col-lg-8 copyright">
-				2015 © Все права защищены, АДРИА — Стоматологическая Клиника
+				2015 © Все права защищены, SkeekS CMS — система управления сайтом.
 			</div>
 			<div class="col-lg-4">
 				<div class=" pull-right">
