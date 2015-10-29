@@ -38,14 +38,6 @@ $skeeksFile = ROOT_DIR . '/vendor/skeeks/cms/app-console.php';
 if (!file_exists($skeeksFile))
 {
     echo("not install skeeks app\n\n");
-    if (PHP_OS === 'Windows')
-    {
-        system("php init install --autoremove --unlock");
-    }
-    else
-    {
-        system("php init install --autoremove --unlock");
-    }
 }
 
 include $skeeksFile;
