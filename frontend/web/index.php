@@ -39,46 +39,7 @@ $skeeksFile = ROOT_DIR . '/vendor/skeeks/cms/app-web.php';
 if (!file_exists($skeeksFile))
 {
     //Если нет app-web.php то попробуем начать установку автоматически.
-    $installScript = __DIR__ . '/install/index.php';
-    if (!file_exists($installScript))
-    {
-        $installSourceDir   = ROOT_DIR . '/install/web/public';
-        $installDir         = __DIR__ . '/install';
-
-        //Установочный пакет не найден
-        if (!is_dir($installSourceDir))
-        {
-            system("cd " . ROOT_DIR . "; mkdir install");
-            system("cd " . ROOT_DIR . "; git clone http://git.skeeks.com/skeeks/cms-install.git install");
-        }
-
-        if (!is_dir($installSourceDir))
-        {
-            die("Не найден установочный скрипт, скачайте его в диррикторию install из http://git.skeeks.com/skeeks/cms-install.git");
-        }
-
-        if (PHP_OS === 'Windows')
-        {
-            //TODO:Доделать копирование
-            if (mkdir($installDir));
-            {}
-
-            die("Please copy {$installSourceDir} in to {$installDir}");
-        }
-        else
-        {
-            symlink($installSourceDir, __DIR__ . '/install');
-        }
-    }
-
-    if (file_exists($installScript))
-    {
-        header("Location: /install/");
-        die;
-    } else
-    {
-        die("The project has not yet been set, the automatic installation failed.");
-    }
+    die("The project is not complete, not installed vendors.");
 }
 
 include $skeeksFile;

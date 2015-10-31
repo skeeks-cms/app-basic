@@ -33,6 +33,7 @@
     },
     "config": {
         "process-timeout": 1800,
+        "discard-changes": true,
         "github-oauth": {"github.com":"ff775d641e892c224dfc52db551a8942d16d1674"}
     }
 }

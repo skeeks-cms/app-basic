@@ -37,7 +37,7 @@ $skeeksFile = ROOT_DIR . '/vendor/skeeks/cms/app-console.php';
 
 if (!file_exists($skeeksFile))
 {
-    echo("not install skeeks app\n\n");
+    echo("\n\nNot install skeeks app\n\n");
 }
 
 include $skeeksFile;
