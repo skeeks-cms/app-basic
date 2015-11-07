@@ -4,7 +4,7 @@
     "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
     "homepage": "http://cms.skeeks.com",
     "type": "project",
-    "license": "BSD-3-Clause",
+    "license": "GPL-2.0+",
     "support": {
         "issues": "http://cms.skeeks.com",
         "docs": "http://dev.cms.skeeks.com",
