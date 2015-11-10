@@ -8,11 +8,16 @@
 /* @var $this \yii\web\View */
 /* @var $model \skeeks\cms\models\Tree */
 
+$timestamp = \Yii::$app->assetManager->appendTimestamp;
+\Yii::$app->assetManager->appendTimestamp = false;
+$skinsPath = \frontend\assets\BoomerangThemeAsset::getAssetUrl("assets/layerslider/skins/");
+
+\Yii::$app->assetManager->appendTimestamp = $timestamp;
 $this->registerJs(<<<JS
 	jQuery("#layerslider").layerSlider({
         pauseOnHover: true,
         autoPlayVideos: false,
-        skinsPath: 'assets/layerslider/skins/',
+        skinsPath: '{$skinsPath}',
         responsive: false,
         responsiveUnder: 1280,
         layersContainer: 1280,
@@ -21,6 +26,7 @@ $this->registerJs(<<<JS
     });
 JS
 );
+?>
 ?>
 <!-- Optional header components (ex: slider) -->
             <!-- Importing slider content -->
