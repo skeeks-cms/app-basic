@@ -27,7 +27,6 @@ $this->registerJs(<<<JS
 JS
 );
 ?>
-?>
 <!-- Optional header components (ex: slider) -->
             <!-- Importing slider content -->
 <section id="slider-wrapper" class="layer-slider-wrapper layer-slider-static">
