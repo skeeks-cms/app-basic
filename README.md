@@ -43,7 +43,9 @@ php yii cms/db/first-dump-restore
 ##Backend (username and password by default)
 
 http://your-site.ru/~sx
+
 root
+
 skeeks
 
 
