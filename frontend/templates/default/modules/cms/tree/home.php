@@ -7,7 +7,6 @@
  */
 /* @var $this \yii\web\View */
 /* @var $model \skeeks\cms\models\Tree */
-
 $timestamp = \Yii::$app->assetManager->appendTimestamp;
 \Yii::$app->assetManager->appendTimestamp = false;
 $skinsPath = \frontend\assets\BoomerangThemeAsset::getAssetUrl("assets/layerslider/skins/");
