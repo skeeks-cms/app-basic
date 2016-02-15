@@ -1,5 +1,6 @@
 AddDefaultCharset UTF-8
 php_value default_charset "UTF-8"
+php_value error_reporting       2039
 # Mod_Autoindex
 <IfModule mod_autoindex.c>
   # Запрещаем просмотр содержимого папок
@@ -13,8 +14,8 @@ php_value default_charset "UTF-8"
   RewriteEngine On
 
   # редиррект для seo
-  RewriteCond %{HTTP_HOST} ^www.adria-stomatology.ru
-  RewriteRule (.*) http://adria-stomatology.ru/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^www.your-site.ru
+  RewriteRule (.*) http://your-site.ru/$1 [R=301,L]
 
   # Если это папка или файл, открываем её/его
   RewriteCond %{REQUEST_FILENAME} !-f
