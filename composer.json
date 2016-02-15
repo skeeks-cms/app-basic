@@ -8,8 +8,8 @@
     "support": {
         "issues": "http://cms.skeeks.com",
         "docs": "http://dev.cms.skeeks.com",
-        "wiki": "http://git.skeeks.com/skeeks/cms/wikis/home",
-        "source": "http://git.skeeks.com/skeeks/app-basic"
+        "wiki": "http://dev.cms.skeeks.com",
+        "source": "http://dev.cms.skeeks.com"
     },
     "authors": [
         {

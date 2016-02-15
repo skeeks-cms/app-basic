@@ -11,6 +11,7 @@ $timestamp = \Yii::$app->assetManager->appendTimestamp;
 \Yii::$app->assetManager->appendTimestamp = false;
 $skinsPath = \frontend\assets\BoomerangThemeAsset::getAssetUrl("assets/layerslider/skins/");
 
+
 \Yii::$app->assetManager->appendTimestamp = $timestamp;
 $this->registerJs(<<<JS
 	jQuery("#layerslider").layerSlider({
