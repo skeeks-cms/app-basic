@@ -26,7 +26,11 @@
                         <?= \skeeks\cms\cmsWidgets\text\TextCmsWidget::widget([
                         'namespace'         => 'header-logo',
                         'text'              => <<<HTML
-                        Лого
+                        <img src="/img/logo.png" style="float: left;" />
+
+                        <span style="float: left; margin-top: 12px; margin-left: 10px;">
+                            <span style="color: #006EEB; font-weight: bold;">SkeekS</span>.com
+                        </span>
 HTML
         ,
                     ]); ?>

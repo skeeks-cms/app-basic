@@ -57,8 +57,8 @@ class TemplateBoomerang extends Component
     /**
      * @var string Изображение для фона
      */
-    public $boxedBgImage                 = "/img/pattern-3.png";
-    public $boxedBgCss                 = "repeat";
+    public $boxedBgImage                    = "/img/pattern-3.png";
+    public $boxedBgCss                      = "repeat";
 
     /**
      * @var string
@@ -71,6 +71,7 @@ class TemplateBoomerang extends Component
             [['themeColor'], 'string'],
             [['boxedBgImage'], 'string'],
             [['boxedLayout'], 'string'],
+            [['boxedBgCss'], 'string'],
         ]);
     }
 
@@ -80,6 +81,7 @@ class TemplateBoomerang extends Component
             'themeColor'            => 'Цветовая схема',
             'boxedBgImage'          => 'Фоновое изображение',
             'boxedLayout'           => 'Фиксированный шаблон',
+            'boxedBgCss'            => 'Css стиль для фона',
         ]);
     }
 

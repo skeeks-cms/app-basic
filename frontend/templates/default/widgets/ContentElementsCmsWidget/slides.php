@@ -17,44 +17,49 @@
 
 <?
 
-\frontend\assets\OwnCarouselAsset::register($this);
 
-if ($widget->dataProvider->query->count() > 1)
+if ($widget->dataProvider->query->count() >= 1)
 {
-        $this->registerJs(<<<JS
-        new sx.classes.OwnCarousel({
-            'jsquerySelector' : '.owl-carousel'
+
+    $timestamp = \Yii::$app->assetManager->appendTimestamp;
+    \Yii::$app->assetManager->appendTimestamp = false;
+    $skinsPath = \frontend\assets\BoomerangThemeAsset::getAssetUrl("assets/layerslider/skins/");
+
+    \Yii::$app->assetManager->appendTimestamp = $timestamp;
+    $this->registerJs(<<<JS
+        jQuery("#layerslider").layerSlider({
+            pauseOnHover: true,
+            autoPlayVideos: false,
+            skinsPath: '{$skinsPath}',
+            responsive: false,
+            responsiveUnder: 1280,
+            layersContainer: 1280,
+            skin: 'borderlessdark3d',
+            hoverPrevNext: true,
         });
 JS
     );
-} else
-{
-    $this->registerCss(<<<CSS
-.owl-carousel
-{
-    display: block;
-}
-CSS
-);
 }
 
 
 ?>
-    <? echo \yii\widgets\ListView::widget([
-        'dataProvider'      => $widget->dataProvider,
-        'itemView'          => 'slide-item',
-        'emptyText'          => '',
-        'options'           =>
-        [
-            'tag'       => 'div',
-            'class'       => 'owl-carousel buttons-autohide controlls-over nomargin',
-            'data-plugin-options'       => '{"items": 1, "autoHeight": false, "navigation": true, "pagination": false, "transitionStyle":"fade", "progressBar":"true"}',
-        ],
-        'itemOptions' => [
-            'tag' => "div"
-        ],
-        'layout'            => "{items}"
-    ])?>
+    <section id="slider-wrapper" class="layer-slider-wrapper layer-slider-static">
+        <? echo \yii\widgets\ListView::widget([
+            'dataProvider'      => $widget->dataProvider,
+            'itemView'          => 'slide-item',
+            'emptyText'          => '',
+            'options'           =>
+            [
+                'tag'       => 'div',
+                'style' => "width: 100%; height: 500px",
+                'id' => "layerslider"
+            ],
+            'itemOptions' => [
+                'tag' => false,
+            ],
+            'layout'            => "{items}"
+        ])?>
+    </section>
 
 
 <? endif; ?>

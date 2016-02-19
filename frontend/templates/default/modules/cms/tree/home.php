@@ -7,45 +7,14 @@
  */
 /* @var $this \yii\web\View */
 /* @var $model \skeeks\cms\models\Tree */
-$timestamp = \Yii::$app->assetManager->appendTimestamp;
-\Yii::$app->assetManager->appendTimestamp = false;
-$skinsPath = \frontend\assets\BoomerangThemeAsset::getAssetUrl("assets/layerslider/skins/");
 
-
-\Yii::$app->assetManager->appendTimestamp = $timestamp;
-$this->registerJs(<<<JS
-	jQuery("#layerslider").layerSlider({
-        pauseOnHover: true,
-        autoPlayVideos: false,
-        skinsPath: '{$skinsPath}',
-        responsive: false,
-        responsiveUnder: 1280,
-        layersContainer: 1280,
-        skin: 'borderlessdark3d',
-        hoverPrevNext: true,
-    });
-JS
-);
 ?>
-<!-- Optional header components (ex: slider) -->
-            <!-- Importing slider content -->
-<section id="slider-wrapper" class="layer-slider-wrapper layer-slider-static">
-    <div id="layerslider" style="width: 100%; height: 600px;">
-        <div class="ls-slide" data-ls="transition2d:1;timeshift:-1000;">
-            <!-- slide background -->
-            <img src="<?= \frontend\assets\BoomerangThemeAsset::getAssetUrl('images/backgrounds/full-bg-19.jpg'); ?>" class="ls-bg" style="width: 100%;"  alt="Slide background"/>
 
-            <!-- Left Text -->
-            <h3 class="ls-l title title-sm strong" style="width:500px; top:25%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">Тестовый сайт</h3>
-            <h3 class="ls-l subtitle strong-400" style="top:40%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:1500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">Недорого, качественно, удобно</h3>
-            <p class="ls-l text-standard" style="width:500px; top:55%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:2500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;">
-            Тут любой текст, текст о любой теме тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст тест, тест текст, текст
-            </p>
-            <a href="<?= \skeeks\cms\models\Tree::find()->where(['code' => 'contacts', 'level' => 1])->one()->url; ?>" class="btn btn-base btn-lg ls-l" style="top:75%; left:80px;" data-ls="offsetxin:0;offsetyin:250;durationin:1000;delayin:3500;offsetxout:0;offsetyout:-8;easingout:easeInOutQuart;scalexout:1.2;scaleyout:1.2;" title="Откроется страница контактов, на ней можно заполнить форму записи на прием.">Контакты</a>
+<?= \skeeks\cms\cmsWidgets\contentElements\ContentElementsCmsWidget::widget([
+    'namespace' => 'ContentElementsCmsWidget-home-slides',
+    'viewFile' 	=> '@app/views/widgets/ContentElementsCmsWidget/slides',
+]); ?>
 
-        </div>
-    </div>
-</section>
 
 
 
@@ -105,6 +74,15 @@ HTML
     'namespace' => 'ContentElementsCmsWidget-home',
     'viewFile' 	=> '@app/views/widgets/ContentElementsCmsWidget/publications',
 ]); ?>
+</section>
+
+<section class="slice bg-white">
+    <div class="container">
+        <div class="row">
+            <?= $model->description_full; ?>
+        </div>
+    </div>
+
 </section>
 
 <!--=== Content Part ===-->

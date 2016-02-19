@@ -20,6 +20,7 @@ class AppAsset extends \skeeks\cms\base\AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
+        'css/phone.css',
         'css/app.css',
 
     ];

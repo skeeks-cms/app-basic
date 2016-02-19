@@ -1,4 +1,63 @@
-footer h4, h1, h2, h3, h4, h5, h6
+footer h4, h1, h2, h3, h4, h5, h6,.pg-opt h2
 {
-    text-transform: none;
+    text-transform: none !important;
+}
+
+body, body p
+{
+    font-size: 16px;
+}
+.body-boxed
+{
+    box-shadow: 1px 1px 18px 4px rgba(0, 0, 0, 0.48);
+}
+.wp-block
+{
+    height: 350px;
+}
+
+.wp-block .figure
+{
+    height: 240px;
+}
+
+@media only screen and (min-width: 992px)
+{
+	.wp-block.article.list .article-image{width:20%}
+}
+.layer-slider-static
+{
+    height: auto !important;
+}
+.wp-section ul li
+{
+    list-style: initial;
+}
+
+.wp-section ul
+{
+    margin-left: 15px;
+}
+
+.wp-section table tr td
+{
+    border: 1px solid black;
+}
+
+.client
+{
+    text-align: center;
+    height: 100px;
+    padding-top: 15px !important;
+    margin-bottom: 15px;
+}
+
+.client img
+{
+    width: auto !important;
+}
+
+.ls-container
+{
+    background: white;
 }

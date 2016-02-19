@@ -23,9 +23,11 @@ $modelClassName = $model->className();
     ])->hint(''); ?>
 
     <?= $form->fieldRadioListBoolean($model, 'boxedLayout'); ?>
+
     <?= $form->field($model, 'boxedBgImage')->widget(
         \skeeks\cms\modules\admin\widgets\formInputs\OneImage::className()
     ); ?>
+    <?= $form->field($model, 'boxedBgCss')->textInput()->hint('repeat or fixed center center'); ?>
 
 <?= $form->fieldSetEnd(); ?>
 

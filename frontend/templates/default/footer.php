@@ -91,3 +91,21 @@ HTML
 		</div>
 	</div>
 </footer>
+
+
+<a id="fca_phone_div" href="#callback" class="fca-phone fca-green fca-show fca-static sx-fancybox" style="right: 50px; bottom: 100px; display: block;">
+	<div class="fca-ph-circle"></div>
+	<div class="fca-ph-circle-fill"></div>
+	<div class="fca-ph-img-circle"></div>
+</a>
+<div style="display: none;">
+	<div id="callback" style="width: 600px;">
+		<h2>Обратный звонок</h2>
+		<p>Оставьте ваш номер телефона и мы вам перезвоним.</p>
+		<?= \skeeks\modules\cms\form2\cmsWidgets\form2\FormWidget::widget([
+			'namespace' => 'FormWidget-all',
+			'form_code' => 'callback',
+			'viewFile' => 'whith-messages',
+		])?>
+	</div>
+</div>
