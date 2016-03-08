@@ -1,6 +1,5 @@
 AddDefaultCharset UTF-8
 php_value default_charset "UTF-8"
-php_value error_reporting       2039
 
 # Mod_Autoindex
 <IfModule mod_autoindex.c>

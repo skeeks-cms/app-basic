@@ -12,6 +12,7 @@ use skeeks\cms\base\Component;
 use skeeks\cms\components\Cms;
 use \Yii;
 use yii\helpers\ArrayHelper;
+use yii\widgets\ActiveForm;
 
 /**
  * @var string $bodyCssClasses
@@ -85,6 +86,24 @@ class TemplateBoomerang extends Component
         ]);
     }
 
+
+    public function renderConfigForm(ActiveForm $form)
+    {
+        echo $form->fieldSet(\Yii::t('app', 'Main'));
+
+            echo $form->fieldSelect($this, 'themeColor', static::themes(), [
+                'allowDeselect' => true
+            ]);
+
+            echo $form->fieldRadioListBoolean($this, 'boxedLayout');
+
+            echo $form->field($this, 'boxedBgImage')->widget(
+                \skeeks\cms\modules\admin\widgets\formInputs\OneImage::className()
+            );
+            echo $form->field($this, 'boxedBgCss')->textInput()->hint('repeat or fixed center center');
+
+        echo $form->fieldSetEnd();
+    }
 
     /**
      * @return $this
