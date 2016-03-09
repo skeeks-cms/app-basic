@@ -18,11 +18,8 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use skeeks\cms\models\searchs\User as UserSearch;
 use \skeeks\cms\App;
-
 /**
  * Site controller
  */
 class UserController extends \skeeks\cms\controllers\UserController
-{
-
-}
+{}
