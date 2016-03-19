@@ -20,7 +20,7 @@
     "require": {
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
-        "skeeks/cms": "2.7.0.alpha",
+        "skeeks/cms": "2.7.0.beta",
         "skeeks/cms-module-form2": "*",
         "skeeks/cms-assets-auto-compress": "*",
         "skeeks/yii2-template-boomerang": "*"
