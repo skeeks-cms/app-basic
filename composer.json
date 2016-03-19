@@ -36,6 +36,6 @@
     "config": {
         "process-timeout": 1800,
         "discard-changes": true,
-        "github-oauth": {"github.com":"fc6caa461624f788b2e4a982df5b5359d3c93342"}
+        "github-oauth": {"github.com":"enter-your-github-key"}
     }
 }
