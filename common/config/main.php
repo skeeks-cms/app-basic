@@ -33,7 +33,7 @@ $config = [
 
         'assetManager' =>
         [
-            'linkAssets'        => true,
+            'linkAssets'        => false,
         ],
 
         'log' => [
