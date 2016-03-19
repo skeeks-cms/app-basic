@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "db5191c4fca25be28fe9024669024082",
-    "content-hash": "f44c367ebbf490bac10031c4e8947299",
+    "hash": "01892c9bade28fb613f18c04d7d5cf70",
+    "content-hash": "d3adce0e5c16db3e5fb866dae6374a97",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -1033,16 +1033,16 @@
         },
         {
             "name": "skeeks/cms",
-            "version": "2.7.0.beta",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms.git",
-                "reference": "bb34d65dcd66d4555dd076ff4306fcfd95c86573"
+                "reference": "474f72fdb2bb9a711cfbb72f6ba9775267ac7fa2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/bb34d65dcd66d4555dd076ff4306fcfd95c86573",
-                "reference": "bb34d65dcd66d4555dd076ff4306fcfd95c86573",
+                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/474f72fdb2bb9a711cfbb72f6ba9775267ac7fa2",
+                "reference": "474f72fdb2bb9a711cfbb72f6ba9775267ac7fa2",
                 "shasum": ""
             },
             "require": {
@@ -1102,7 +1102,7 @@
                 "skeeks cms",
                 "yii2"
             ],
-            "time": "2016-03-19 14:46:43"
+            "time": "2016-03-19 17:58:47"
         },
         {
             "name": "skeeks/cms-assets-auto-compress",
