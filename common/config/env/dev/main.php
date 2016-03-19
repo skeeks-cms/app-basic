@@ -2,6 +2,20 @@
 return [
 
 
+    'bootstrap' => ['debug'],
+    'modules' => [
+        'gii' =>
+        [
+            'allowedIPs' => ['*'],
+            'class' => '\yii\gii\Module',
+        ],
+        'debug' =>
+        [
+            'allowedIPs' => ['*'], // adjust this to your needs
+            'class' => 'yii\debug\Module',
+        ]
+    ],
+
     'components' => [
         /*'db' => [
             'class' => 'yii\db\Connection',

@@ -31,6 +31,26 @@ $config = [
             'class' => 'yii\caching\FileCache',
         ],
 
+        'assetManager' =>
+        [
+            'linkAssets'        => true,
+        ],
+
+        'log' => [
+            'traceLevel' => YII_DEBUG ? 3 : 0,
+            'targets' => [
+                [
+                    'class'     => 'yii\log\FileTarget',
+                    'logVars'   => [],
+                    'levels' => [
+                        'error',
+                        'warning'
+                    ],
+                ],
+            ],
+        ],
+
+
         'templateBoomerang' => [
             'class' => 'common\components\boomerang\TemplateBoomerang',
         ],
