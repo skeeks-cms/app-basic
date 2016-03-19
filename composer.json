@@ -20,7 +20,7 @@
     "require": {
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
-        "skeeks/cms": "2.7.0.beta",
+        "skeeks/cms": "*",
         "skeeks/cms-module-form2": "*",
         "skeeks/cms-assets-auto-compress": "*",
         "skeeks/yii2-template-boomerang": "*"
@@ -36,6 +36,6 @@
     "config": {
         "process-timeout": 1800,
         "discard-changes": true,
-        "github-oauth": {"github.com":"fc6caa461624f788b4e4a982df5b5359d3c93342"}
+        "github-oauth": {"github.com":"3a941dde09e13c8fddddb75399106047b937fa9f"}
     }
 }
