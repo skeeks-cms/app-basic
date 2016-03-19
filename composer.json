@@ -18,12 +18,12 @@
         }
     ],
     "require": {
-        "yiisoft/yii2-debug": "*",
-        "yiisoft/yii2-gii": "*",
         "skeeks/cms": "*",
         "skeeks/cms-module-form2": "*",
         "skeeks/cms-assets-auto-compress": "*",
-        "skeeks/yii2-template-boomerang": "*"
+        "skeeks/yii2-template-boomerang": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*"
     },
     "minimum-stability" : "dev",
     "prefer-stable" : true,
