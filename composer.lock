@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "01892c9bade28fb613f18c04d7d5cf70",
-    "content-hash": "d3adce0e5c16db3e5fb866dae6374a97",
+    "hash": "dabe8ebe625f64f570174d2138077630",
+    "content-hash": "f0348ebd212f2a13290b2059af7f434f",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -1033,16 +1033,16 @@
         },
         {
             "name": "skeeks/cms",
-            "version": "2.7.0",
+            "version": "2.7.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms.git",
-                "reference": "474f72fdb2bb9a711cfbb72f6ba9775267ac7fa2"
+                "reference": "178dee73042be09f0e0aa3208c9ab56777720a26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/474f72fdb2bb9a711cfbb72f6ba9775267ac7fa2",
-                "reference": "474f72fdb2bb9a711cfbb72f6ba9775267ac7fa2",
+                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/178dee73042be09f0e0aa3208c9ab56777720a26",
+                "reference": "178dee73042be09f0e0aa3208c9ab56777720a26",
                 "shasum": ""
             },
             "require": {
@@ -1090,7 +1090,7 @@
                     "homepage": "http://skeeks.com"
                 }
             ],
-            "description": "SkeekS CMS (Yii2 cms) — система управления интернет проектами, создание веб-проектов, система управления внутренним порталом компании",
+            "description": "SkeekS CMS — control panel and tools based on php framework Yii2",
             "homepage": "http://cms.skeeks.com",
             "keywords": [
                 "Sx",
@@ -1102,7 +1102,7 @@
                 "skeeks cms",
                 "yii2"
             ],
-            "time": "2016-03-19 17:58:47"
+            "time": "2016-03-21 06:29:08"
         },
         {
             "name": "skeeks/cms-assets-auto-compress",
@@ -1343,11 +1343,17 @@
         },
         {
             "name": "skeeks/yii2-imagine",
-            "version": "1.0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-imagine.git",
-                "reference": "cdcfcbe748d7c63d5e829cdd18bf1c0b17e10e42"
+                "reference": "e081dcc5c248b7a441a76f7d19b7b9453cb00c50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-imagine/zipball/e081dcc5c248b7a441a76f7d19b7b9453cb00c50",
+                "reference": "e081dcc5c248b7a441a76f7d19b7b9453cb00c50",
+                "shasum": ""
             },
             "require": {
                 "imagine/imagine": "0.6.*",
@@ -1377,7 +1383,7 @@
                 "imagine",
                 "yii2"
             ],
-            "time": "2015-02-15 17:10:55"
+            "time": "2015-02-15 17:09:04"
         },
         {
             "name": "skeeks/yii2-sx",
