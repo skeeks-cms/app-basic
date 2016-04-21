@@ -24,7 +24,6 @@ if ($widget->dataProvider->query->count() >= 1)
     $timestamp = \Yii::$app->assetManager->appendTimestamp;
     \Yii::$app->assetManager->appendTimestamp = false;
     $skinsPath = \frontend\assets\BoomerangThemeAsset::getAssetUrl("assets/layerslider/skins/");
-    $skinsPath = \skeeks\template\smarty\SmartyAsset::getAssetUrl('plugins/');
 
     \Yii::$app->assetManager->appendTimestamp = $timestamp;
     $this->registerJs(<<<JS
