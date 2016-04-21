@@ -12,12 +12,11 @@ $config = [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'frontend\controllers',
 
-    'params' => (new \skeeks\cms\Config([
-        COMMON_CONFIG_DIR . "/params.php",
-        COMMON_ENV_CONFIG_DIR . "/params.php",
-        APP_CONFIG_DIR . "/params.php",
-        APP_ENV_CONFIG_DIR . "/params.php"
-    ]))->getResult(),
+    'params' => [],
+
+    'on beforeRequest' => function ($event) {
+         \Yii::setAlias('template', '@app/views');
+    },
 
     'components' =>
     [
@@ -38,6 +37,19 @@ $config = [
                 'httpOnly' => true,
                 'domain' => '.cms.skeeks.com'
             ]*/
+        ],
+
+        'view' => [
+            'theme' =>
+            [
+                'pathMap'       =>
+                [
+                    '@app/views' =>
+                    [
+                        '@app/templates/default',
+                    ],
+                ]
+            ],
         ],
     ]
 ];
