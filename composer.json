@@ -1,6 +1,6 @@
 {
     "name": "skeeks/app-basic",
-    "description": "Приложение построенное на базе SkeekS CMS",
+    "description": "Base app on SkeekS CMS (Yii2)",
     "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
     "homepage": "http://cms.skeeks.com",
     "type": "project",
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "skeeks/cms": "3.0.0-alpha2",
+        "skeeks/cms": "3.0.0",
         "skeeks/cms-module-form2": "*",
         "skeeks/cms-agent": "*",
         "skeeks/cms-mailer": "*",
@@ -28,8 +28,7 @@
         "skeeks/cms-log-db-target": "*",
         "skeeks/cms-assets-auto-compress": "*",
         "skeeks/yii2-template-boomerang": "*",
-        "yiisoft/yii2-debug": "*",
-        "yiisoft/yii2-gii": "*"
+        "yiisoft/yii2-debug": "*"
     },
     "minimum-stability" : "dev",
     "prefer-stable" : true,
@@ -54,7 +53,6 @@
     },
     "config": {
         "process-timeout": 1800,
-        "discard-changes": true,
-        "github-oauth": {"github.com":"6d5599154f19c2932ba93a0cfd4dd3e008a9139c"}
+        "discard-changes": true
     }
 }

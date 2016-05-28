@@ -10,6 +10,7 @@
  */
 $config = [
     'name' => 'SkeekS CMS',
+    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
 
     'components'    =>
     [
