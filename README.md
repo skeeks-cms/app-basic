@@ -13,6 +13,31 @@ Base app on SkeekS CMS (Yii2)
 
 * [http://en.cms.skeeks.com/docs/install/installation-on-linux](http://en.cms.skeeks.com/docs/install/installation-on-linux)
 * [http://marketplace.cms.skeeks.com/solutions/gotovyie-saytyi/191-korporativnyiy-sayt-skeeks_app-basic](http://marketplace.cms.skeeks.com/solutions/gotovyie-saytyi/191-korporativnyiy-sayt-skeeks_app-basic)
+ 
+```bash
+# Download latest version of composer
+php -r "readfile('https://getcomposer.org/installer');" | php
+# Installing the base project SkeekS CMS
+COMPOSER_HOME=.composer php composer.phar create-project --no-install --prefer-dist skeeks/app-basic demo.ru
+# Going into the project folder
+cd demo.ru
+# Download latest version of composer in project
+php -r "readfile('https://getcomposer.org/installer');" | php
+# Extra plug-ins
+COMPOSER_HOME=.composer php composer.phar global require fxp/composer-asset-plugin --no-plugins
+# Enter your github api key in composer.json
+# "github-oauth": {"github.com":"3a941dde09e13c8fddddb75399106047b937fa9f"}
+# Download dependency
+COMPOSER_HOME=.composer php composer.phar install -o
+# Run the command to initialize the project, the installer executable file and the necessary rights to the directory
+php yii cms/init
+
+#Edit the file to access the database, it is located at common/config/db.php
+
+#Installation of ready-dump
+php yii dbDumper/mysql/restore
+```
+
 
 ##Demo
 * [http://marketplace.cms.skeeks.com/solutions/gotovyie-saytyi/191-korporativnyiy-sayt-skeeks_app-basic](http://marketplace.cms.skeeks.com/solutions/gotovyie-saytyi/191-korporativnyiy-sayt-skeeks_app-basic)
