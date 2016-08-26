@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "skeeks/cms": "3.0.0",
+        "skeeks/cms": "*",
         "skeeks/cms-module-form2": "*",
         "skeeks/cms-agent": "*",
         "skeeks/cms-mailer": "*",
