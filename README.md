@@ -14,13 +14,13 @@ Base app on SkeekS CMS (Yii2)
 
 ```bash
 # Download latest version of composer
-php -r "readfile('https://getcomposer.org/installer');" | php
+curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
 # Installing the base project SkeekS CMS
 COMPOSER_HOME=.composer php composer.phar create-project --no-install --prefer-dist skeeks/app-basic demo.ru
 # Going into the project folder
 cd demo.ru
 # Download latest version of composer in project
-php -r "readfile('https://getcomposer.org/installer');" | php
+curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
 # Extra plug-ins
 COMPOSER_HOME=.composer php composer.phar global require fxp/composer-asset-plugin --no-plugins
 # Enter your github api key in composer.json
