@@ -2,12 +2,12 @@
     "name": "skeeks/app-basic",
     "description": "Base app on SkeekS CMS (Yii2)",
     "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
-    "homepage": "http://cms.skeeks.com",
+    "homepage": "https://cms.skeeks.com",
     "type": "project",
     "license": "GPL-3.0+",
     "support": {
-        "issues": "http://cms.skeeks.com",
-        "docs": "http://en.cms.skeeks.com/docs",
+        "issues": "https://cms.skeeks.com",
+        "docs": "https://cms.skeeks.com/docs",
         "source": "https://github.com/skeeks-cms/app-basic"
     },
     "authors": [

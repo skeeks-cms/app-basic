@@ -2,8 +2,8 @@
 /**
  * @author Semenov Alexander <semenov@skeeks.com>
  * @link http://skeeks.com/
- * @copyright 2010 SkeekS (ÑêèêÑ)
- * @date 28.05.2016
+ * @copyright 2010 SkeekS (Ð¡ÐºÐ¸ÐºÐ¡)
+ * @date 28.02.2017
  */
 return [
     'id' => 'app-skeeks-console',

@@ -19,7 +19,8 @@
 //define("COMMON_RUNTIME_DIR",      COMMON_DIR . '/runtime'); //Временные файлы
 //define("VENDOR_DIR",              ROOT_DIR . '/vendor');    //Вендоры
 
-error_reporting(E_ERROR | E_WARNING | E_PARSE);
+//error_reporting(E_ERROR | E_WARNING | E_PARSE);
+error_reporting(E_ALL);
 // определяем режим вывода ошибок
 ini_set('display_errors', 'On');
 
