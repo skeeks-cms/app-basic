@@ -6,7 +6,7 @@
  * @date 24.03.2015
  */
 
-if (!$title)
+if (!@$title)
 {
     if ($model)
     {
@@ -21,7 +21,7 @@ if (!$title)
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2><?= $title; ?></h2>
+                <h2><?= @$title; ?></h2>
             </div>
             <div class="col-md-6">
                 <?= \skeeks\cms\cmsWidgets\breadcrumbs\BreadcrumbsCmsWidget::widget([
