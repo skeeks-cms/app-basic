@@ -41,7 +41,9 @@ Documentation
 - [Pdf-версия на русскомя зыке](https://media.readthedocs.org/pdf/skeeks-cms-ru/latest/skeeks-cms-ru.pdf).
 
 
-##Screenshots
+Screenshots
+-------------
+
 [![skeeks!](https://cms.skeeks.com/uploads/all/11/46/fc/1146fc43f1f4663a70b9d1101e550863.png)](http://cms.skeeks.com)
 
 
