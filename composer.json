@@ -17,40 +17,70 @@
         }
     ],
     "require": {
-        "skeeks/cms": "*",
-        "skeeks/cms-module-form2": "*",
-        "skeeks/cms-agent": "*",
-        "skeeks/cms-mailer": "*",
-        "skeeks/cms-seo": "*",
-        "skeeks/cms-search": "*",
-        "skeeks/cms-db-dumper": "*",
-        "skeeks/cms-ssh-console": "*",
-        "skeeks/cms-log-db-target": "*",
-        "skeeks/cms-assets-auto-compress": "*",
-        "skeeks/yii2-template-boomerang": "*",
+        "skeeks/cms": "^4.0",
+        "skeeks/cms-module-form2": "^2",
+        "skeeks/cms-agent": "^1.1",
+        "skeeks/cms-mailer": "^2",
+        "skeeks/cms-seo": "^2",
+        "skeeks/cms-search": "^2",
+        "skeeks/cms-db-dumper": "^1",
+        "skeeks/cms-ssh-console": "^1",
+        "skeeks/cms-log-db-target": "^1",
+        "skeeks/cms-assets-auto-compress": "^1.4",
+        "skeeks/yii2-template-boomerang": "^1",
         "yiisoft/yii2-debug": "*"
     },
     "minimum-stability" : "dev",
     "prefer-stable" : true,
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
-        }
-    },
     "scripts": {
+        "post-create-project-cmd": [
+            "yii\\composer\\Installer::postCreateProject",
+            "yii\\composer\\Installer::postInstall"
+        ],
         "post-install-cmd": [
-            "skeeks\\cms\\console\\Composer::postInstall"
+            "yii\\composer\\Installer::postInstall",
+            "skeeks\\cms\\composer\\Installer::postInstall"
         ],
         "post-update-cmd": [
-            "skeeks\\cms\\console\\Composer::postUpdate",
-            "php yii cms/cache/flush-all",
+            "skeeks\\cms\\composer\\Installer::postUpdate",
+            "skeeks\\cms\\composer\\Installer::clearDirs",
             "php yii cms/migrate --interactive=0",
+            "skeeks\\cms\\composer\\Installer::clearDirs",
             "php yii rbac/init",
-            "php yii cmsAgent/init",
-            "php yii cms/cache/flush-all"
+            "php yii cmsAgent/init"
         ]
     },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "console/runtime": "0777",
+                    "common/runtime": "0777",
+                    "frontend/runtime": "0777",
+                    "frontend/web/assets": "0777",
+                    "yii": "0755"
+                }
+            ]
+        },
+        "yii\\composer\\Installer::postInstall": {
+            "generateCookieValidationKey": [
+                "frontend/config/main.php"
+            ]
+        },
+        "skeeks\\cms\\composer\\Installer::clearDirs": {
+            "dirs": [
+                "console/runtime/cache",
+                "frontend/runtime/cache",
+                "frontend/web/assets"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "config": {
         "process-timeout": 1800,
         "discard-changes": true
