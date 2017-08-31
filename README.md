@@ -3,6 +3,11 @@ Base app on SkeekS CMS (Yii2)
 
 [![skeeks!](https://cms.skeeks.com/uploads/all/35/fd/33/35fd33aa306823dbaf53a0142d43b3fa.png)](http://cms.skeeks.com)
 
+[![Latest Stable Version](https://poser.pugx.org/skeeks/app-basic/v/stable.png)](https://packagist.org/packages/skeeks/app-basic)
+[![Total Downloads](https://poser.pugx.org/skeeks/app-basic/downloads.png)](https://packagist.org/packages/skeeks/app-basic)
+[![Dependency Status](https://www.versioneye.com/php/skeeks:app-basic/dev-master/badge.png)](https://www.versioneye.com/php/skeeks:app-basic/dev-master)
+
+
 Links
 -----
 
