@@ -3,32 +3,27 @@ Base app on SkeekS CMS (Yii2)
 
 [![skeeks!](https://cms.skeeks.com/uploads/all/35/fd/33/35fd33aa306823dbaf53a0142d43b3fa.png)](http://cms.skeeks.com)
 
-##Links*
+Links
+-----
 
-* [Web site (SkeekS CMS)](https://cms.skeeks.com)
-* [Docs (SkeekS CMS)](https://cms.skeeks.com/docs)
+* [Web site](https://cms.skeeks.com)
 * [Author](https://skeeks.com)
 * [ChangeLog](https://github.com/skeeks-cms/cms/blob/master/CHANGELOG.md)
+* [Youtube](https://www.youtube.com/channel/UC26fcOT8EK0Rr80WSM44mEA)
+* [Facebook](https://www.facebook.com/skeekscom)
+* [Vk](https://vk.com/skeeks_com)
 
-##Install
+Installation
+------------
 
 ```bash
 # Download latest version of composer
 curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
+
 # Installing the base project SkeekS CMS
-COMPOSER_HOME=.composer php composer.phar create-project --no-install --prefer-dist skeeks/app-basic demo.ru
+COMPOSER_HOME=.composer php composer.phar create-project --prefer-dist --stability=dev skeeks/app-basic demo.ru
 # Going into the project folder
 cd demo.ru
-# Download latest version of composer in project
-curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
-# Extra plug-ins
-COMPOSER_HOME=.composer php composer.phar global require fxp/composer-asset-plugin --no-plugins
-# Enter your github api key in composer.json
-# "github-oauth": {"github.com":"3a941dde09e13c8fddddb75399106047b937fa9f"}
-# Download dependency
-COMPOSER_HOME=.composer php composer.phar install -o
-# Run the command to initialize the project, the installer executable file and the necessary rights to the directory
-php yii cms/init
 
 #Edit the file to access the database, it is located at common/config/db.php
 
@@ -37,7 +32,13 @@ php yii dbDumper/mysql/restore
 ```
 
 
-##Demo
+Documentation
+-------------
+
+- [Web version](https://docs.cms.skeeks.com/en/latest/).
+- [Pdf version](https://media.readthedocs.org/pdf/skeeks-cms/latest/skeeks-cms.pdf).
+- [Веб-версия на русскомя зыке](https://docs.cms.skeeks.com/ru/latest/).
+- [Pdf-версия на русскомя зыке](https://media.readthedocs.org/pdf/skeeks-cms-ru/latest/skeeks-cms-ru.pdf).
 
 
 ##Screenshots
