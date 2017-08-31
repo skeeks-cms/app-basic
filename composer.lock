@@ -4,8 +4,216 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b07e2042d79d921ce6433aa6125e30df",
+    "content-hash": "85e017143edff0554055a43285b81eff",
     "packages": [
+        {
+            "name": "2amigos/yii2-file-upload-widget",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-file-upload-widget.git",
+                "reference": "59d7657548711c50282d931fdb125be5b68b5efc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-file-upload-widget/zipball/59d7657548711c50282d931fdb125be5b68b5efc",
+                "reference": "59d7657548711c50282d931fdb125be5b68b5efc",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-gallery-widget": "~1.0",
+                "bower-asset/blueimp-file-upload": "~9.9",
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-bootstrap": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\fileupload\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Blueimp file upload widget for the Yii framework",
+            "homepage": "https://github.com/2amigos/yii2-file-upload-widget",
+            "keywords": [
+                "2amigos",
+                "upload",
+                "widget",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2017-07-12T10:58:40+00:00"
+        },
+        {
+            "name": "2amigos/yii2-gallery-widget",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-gallery-widget.git",
+                "reference": "e9b3b0819385bf905e64f017c16be197fec81e99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-gallery-widget/zipball/e9b3b0819385bf905e64f017c16be197fec81e99",
+                "reference": "e9b3b0819385bf905e64f017c16be197fec81e99",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/blueimp-gallery": "~2.17.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                },
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\gallery\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Blueimp gallery widget for the Yii framework",
+            "homepage": "https://github.com/2amigos/yii2-gallery-widget",
+            "keywords": [
+                "2amigos",
+                "gallery",
+                "widget",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2016-09-10T19:18:19+00:00"
+        },
+        {
+            "name": "bower-asset/blueimp-canvas-to-blob",
+            "version": "v3.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueimp/JavaScript-Canvas-to-Blob.git",
+                "reference": "a8e66f1443d67d1a42b79568570daf086fc43809"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blueimp/JavaScript-Canvas-to-Blob/zipball/a8e66f1443d67d1a42b79568570daf086fc43809",
+                "reference": "a8e66f1443d67d1a42b79568570daf086fc43809",
+                "shasum": null
+            },
+            "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/blueimp-file-upload",
+            "version": "v9.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueimp/jQuery-File-Upload.git",
+                "reference": "9459d1042a2e6b1d215c53a36d3fdc23150be04d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/9459d1042a2e6b1d215c53a36d3fdc23150be04d",
+                "reference": "9459d1042a2e6b1d215c53a36d3fdc23150be04d",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/blueimp-canvas-to-blob": ">=2.1.1",
+                "bower-asset/blueimp-load-image": ">=1.13.0",
+                "bower-asset/blueimp-tmpl": ">=2.5.4",
+                "bower-asset/jquery": ">=1.6"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/blueimp-gallery",
+            "version": "v2.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueimp/Gallery.git",
+                "reference": "8336bb5934cb623608808601129db3fbf9201a09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blueimp/Gallery/zipball/8336bb5934cb623608808601129db3fbf9201a09",
+                "reference": "8336bb5934cb623608808601129db3fbf9201a09",
+                "shasum": null
+            },
+            "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/blueimp-load-image",
+            "version": "v2.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueimp/JavaScript-Load-Image.git",
+                "reference": "def9078cbfe47b40f556f0ca06c6afbbaa690d1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blueimp/JavaScript-Load-Image/zipball/def9078cbfe47b40f556f0ca06c6afbbaa690d1a",
+                "reference": "def9078cbfe47b40f556f0ca06c6afbbaa690d1a",
+                "shasum": null
+            },
+            "type": "bower-asset"
+        },
+        {
+            "name": "bower-asset/blueimp-tmpl",
+            "version": "v3.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueimp/JavaScript-Templates.git",
+                "reference": "903810bbad00de168e253b14a8de356596e80293"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blueimp/JavaScript-Templates/zipball/903810bbad00de168e253b14a8de356596e80293",
+                "reference": "903810bbad00de168e253b14a8de356596e80293",
+                "shasum": null
+            },
+            "type": "bower-asset"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.3.7",
@@ -18,125 +226,52 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
                 "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
-                "shasum": ""
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.9.1,<4.0"
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "less/bootstrap.less",
-                    "dist/js/bootstrap.js"
-                ],
-                "bower-asset-ignore": [
-                    "/.*",
-                    "_config.yml",
-                    "CNAME",
-                    "composer.json",
-                    "CONTRIBUTING.md",
-                    "docs",
-                    "js/tests",
-                    "test-infra"
-                ]
-            },
+            "type": "bower-asset",
             "license": [
                 "MIT"
-            ],
-            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-            "keywords": [
-                "css",
-                "framework",
-                "front-end",
-                "js",
-                "less",
-                "mobile-first",
-                "responsive",
-                "web"
             ]
         },
         {
             "name": "bower-asset/codemirror",
-            "version": "5.24.2",
+            "version": "5.27.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/codemirror.git",
-                "reference": "7da68a7f8e4d3fc67c7b30e28aa507ad953061cb"
+                "reference": "8e6aade9869a639fdffd8edd8faa36c0a42aaa87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/codemirror/zipball/7da68a7f8e4d3fc67c7b30e28aa507ad953061cb",
-                "reference": "7da68a7f8e4d3fc67c7b30e28aa507ad953061cb",
-                "shasum": ""
+                "url": "https://api.github.com/repos/components/codemirror/zipball/8e6aade9869a639fdffd8edd8faa36c0a42aaa87",
+                "reference": "8e6aade9869a639fdffd8edd8faa36c0a42aaa87",
+                "shasum": null
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "lib/codemirror.js",
-                    "lib/codemirror.css"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "components",
-                    "bin",
-                    "demo",
-                    "doc",
-                    "test",
-                    "index.html",
-                    "package.json",
-                    "mode/*/*test.js",
-                    "mode/*/*.html"
-                ]
-            }
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/fancybox",
-            "version": "V2.1.7",
+            "version": "v3.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fancyapps/fancybox.git",
-                "reference": "b708e8060cefd45c97981143f85d4094e3d6e18c"
+                "reference": "3607c5562130ff4eb4ced258e30de6613dc7c2c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fancyapps/fancybox/zipball/b708e8060cefd45c97981143f85d4094e3d6e18c",
-                "reference": "b708e8060cefd45c97981143f85d4094e3d6e18c",
-                "shasum": ""
+                "url": "https://api.github.com/repos/fancyapps/fancybox/zipball/3607c5562130ff4eb4ced258e30de6613dc7c2c1",
+                "reference": "3607c5562130ff4eb4ced258e30de6613dc7c2c1",
+                "shasum": null
             },
             "require": {
-                "bower-asset/jquery": ">=1.10",
-                "bower-asset/jquery-mousewheel": "~3.1.3"
+                "bower-asset/jquery": ">=1.9.0"
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "source/jquery.fancybox.css",
-                    "source/jquery.fancybox.pack.js",
-                    "source/blank.gif",
-                    "source/fancybox_loading.gif",
-                    "source/fancybox_loading@2x.gif",
-                    "source/fancybox_overlay.png",
-                    "source/fancybox_sprite.png",
-                    "source/fancybox_sprite@2x.png"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "fancybox.jquery.json",
-                    "demo"
-                ]
-            },
+            "type": "bower-asset",
             "license": [
-                "GPLv3"
-            ],
-            "description": "fancyBox offers an elegant way to present images, html content and multimedia for webpages",
-            "keywords": [
-                "effect",
-                "lightbox",
-                "modal",
-                "responsive",
-                "ui",
-                "window"
+                "GPL-3.0"
             ]
         },
         {
@@ -151,55 +286,12 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/c0185ab7c75aab88762c5aae780b9d83b80eda72",
                 "reference": "c0185ab7c75aab88762c5aae780b9d83b80eda72",
-                "shasum": ""
+                "shasum": null
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "dist/jquery.js",
-                "bower-asset-ignore": [
-                    "package.json"
-                ]
-            },
+            "type": "bower-asset",
             "license": [
                 "MIT"
-            ],
-            "keywords": [
-                "browser",
-                "javascript",
-                "jquery",
-                "library"
             ]
-        },
-        {
-            "name": "bower-asset/jquery-mousewheel",
-            "version": "3.1.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jquery/jquery-mousewheel.git",
-                "reference": "67289b6b2aa0066d7d78a5807f520387135ffb22"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-mousewheel/zipball/67289b6b2aa0066d7d78a5807f520387135ffb22",
-                "reference": "67289b6b2aa0066d7d78a5807f520387135ffb22",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.2.2"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./jquery.mousewheel.js",
-                "bower-asset-ignore": [
-                    "*.json",
-                    "*.markdown",
-                    "*.txt",
-                    ".*",
-                    "!LICENSE.txt",
-                    "Gruntfile.js",
-                    "test"
-                ]
-            }
         },
         {
             "name": "bower-asset/jquery-ui",
@@ -213,70 +305,33 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
                 "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "shasum": ""
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.6"
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "jquery-ui.js"
-                ],
-                "bower-asset-ignore": []
-            }
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.3.4",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/Inputmask.git",
-                "reference": "8a882bc471ba4077c4f8ecbe3d9d61c7558f3ef2"
+                "reference": "791d84990c4a98df1597e9d155be53a3725805dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/8a882bc471ba4077c4f8ecbe3d9d61c7558f3ef2",
-                "reference": "8a882bc471ba4077c4f8ecbe3d9d61c7558f3ef2",
-                "shasum": ""
+                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/791d84990c4a98df1597e9d155be53a3725805dd",
+                "reference": "791d84990c4a98df1597e9d155be53a3725805dd",
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "./dist/inputmask/inputmask.dependencyLib",
-                    "./dist/inputmask/inputmask",
-                    "./dist/inputmask/inputmask.extensions",
-                    "./dist/inputmask/inputmask.date.extensions",
-                    "./dist/inputmask/inputmask.numeric.extensions",
-                    "./dist/inputmask/inputmask.phone.extensions",
-                    "./dist/inputmask/inputmask.regex.extensions",
-                    "./dist/inputmask/jquery.inputmask"
-                ],
-                "bower-asset-ignore": [
-                    "**/*",
-                    "!dist/*",
-                    "!dist/inputmask/*",
-                    "!dist/min/*",
-                    "!dist/min/inputmask/*",
-                    "!extra/bindings/*",
-                    "!extra/dependencyLibs/*",
-                    "!extra/phone-codes/*"
-                ]
-            },
+            "type": "bower-asset",
             "license": [
                 "http://opensource.org/licenses/mit-license.php"
-            ],
-            "description": "jquery.inputmask is a jquery plugin which create an input mask.",
-            "keywords": [
-                "form",
-                "input",
-                "inputmask",
-                "jquery",
-                "mask",
-                "plugins"
             ]
         },
         {
@@ -291,21 +346,9 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bestiejs/punycode.js/zipball/38c8d3131a82567bfef18da09f7f4db68c84f8a3",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3",
-                "shasum": ""
+                "shasum": null
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "punycode.js",
-                "bower-asset-ignore": [
-                    "coverage",
-                    "tests",
-                    ".*",
-                    "component.json",
-                    "Gruntfile.js",
-                    "node_modules",
-                    "package.json"
-                ]
-            }
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/underscore",
@@ -319,32 +362,9 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/jashkenas/underscore/zipball/e4743ab712b8ab42ad4ccb48b155034d02394e4d",
                 "reference": "e4743ab712b8ab42ad4ccb48b155034d02394e4d",
-                "shasum": ""
+                "shasum": null
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "underscore.js",
-                "bower-asset-ignore": [
-                    "docs",
-                    "test",
-                    "*.yml",
-                    "CNAME",
-                    "index.html",
-                    "favicon.ico",
-                    "CONTRIBUTING.md",
-                    ".*",
-                    "component.json",
-                    "package.json",
-                    "karma.*"
-                ]
-            },
-            "keywords": [
-                "browser",
-                "client",
-                "functional",
-                "server",
-                "util"
-            ]
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -358,40 +378,28 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/60728da6ade5879e807a49ce59ef9a72039b8978",
                 "reference": "60728da6ade5879e807a49ce59ef9a72039b8978",
-                "shasum": ""
+                "shasum": null
             },
             "require": {
                 "bower-asset/jquery": ">=1.8"
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./jquery.pjax.js",
-                "bower-asset-ignore": [
-                    ".travis.yml",
-                    "Gemfile",
-                    "Gemfile.lock",
-                    "CONTRIBUTING.md",
-                    "vendor/",
-                    "script/",
-                    "test/"
-                ]
-            },
+            "type": "bower-asset",
             "license": [
                 "MIT"
             ]
         },
         {
             "name": "cebe/markdown",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166"
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
-                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/25b28bae8a6f185b5030673af77b32e1163d5c6e",
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e",
                 "shasum": ""
             },
             "require": {
@@ -438,24 +446,169 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-09-14T20:40:20+00:00"
+            "time": "2017-07-16T21:13:23+00:00"
         },
         {
-            "name": "ezyang/htmlpurifier",
-            "version": "v4.8.0",
+            "name": "container-interop/container-interop",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2"
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "homepage": "https://github.com/container-interop/container-interop",
+            "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "egulias/email-validator",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egulias/EmailValidator.git",
+                "reference": "bc31baa11ea2883e017f0a10d9722ef9d50eac1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/bc31baa11ea2883e017f0a10d9722ef9d50eac1c",
+                "reference": "bc31baa11ea2883e017f0a10d9722ef9d50eac1c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "^1.0.1",
+                "php": ">= 5.5"
+            },
+            "require-dev": {
+                "dominicsayers/isemail": "dev-master",
+                "phpunit/phpunit": "^4.8.0",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "suggest": {
+                "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Egulias\\EmailValidator\\": "EmailValidator"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eduardo Gulias Davis"
+                }
+            ],
+            "description": "A library for validating emails against several RFCs",
+            "homepage": "https://github.com/egulias/EmailValidator",
+            "keywords": [
+                "email",
+                "emailvalidation",
+                "emailvalidator",
+                "validation",
+                "validator"
+            ],
+            "time": "2017-01-30T22:07:36+00:00"
+        },
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "v4.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "95e1bae3182efc0f3422896a3236e991049dac69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/95e1bae3182efc0f3422896a3236e991049dac69",
+                "reference": "95e1bae3182efc0f3422896a3236e991049dac69",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "^1.1"
             },
             "type": "library",
             "autoload": {
@@ -482,7 +635,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2016-07-16T12:58:58+00:00"
+            "time": "2017-06-03T02:28:16+00:00"
         },
         {
             "name": "giggsey/libphonenumber-for-php",
@@ -548,16 +701,16 @@
         },
         {
             "name": "giggsey/locale",
-            "version": "1.1.1",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/Locale.git",
-                "reference": "8238764fa3f2c5bd8bdf981e2e019401d49229e3"
+                "reference": "e6eb1883c1452df7734a03fb183a2ec5175c16f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/Locale/zipball/8238764fa3f2c5bd8bdf981e2e019401d49229e3",
-                "reference": "8238764fa3f2c5bd8bdf981e2e019401d49229e3",
+                "url": "https://api.github.com/repos/giggsey/Locale/zipball/e6eb1883c1452df7734a03fb183a2ec5175c16f2",
+                "reference": "e6eb1883c1452df7734a03fb183a2ec5175c16f2",
                 "shasum": ""
             },
             "require": {
@@ -593,20 +746,20 @@
                 }
             ],
             "description": "Locale functions required by libphonenumber-for-php",
-            "time": "2016-10-24T20:49:55+00:00"
+            "time": "2017-04-07T18:45:42+00:00"
         },
         {
             "name": "ifsnop/mysqldump-php",
-            "version": "v2.2",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ifsnop/mysqldump-php.git",
-                "reference": "6c1b84c5b05d862d15ba9ddf92c7d99a3d81e439"
+                "reference": "1806317c2ce897cb38fbae5283f17d1451308244"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/6c1b84c5b05d862d15ba9ddf92c7d99a3d81e439",
-                "reference": "6c1b84c5b05d862d15ba9ddf92c7d99a3d81e439",
+                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/1806317c2ce897cb38fbae5283f17d1451308244",
+                "reference": "1806317c2ce897cb38fbae5283f17d1451308244",
                 "shasum": ""
             },
             "require": {
@@ -645,7 +798,7 @@
                 "pdo",
                 "sqlite"
             ],
-            "time": "2016-09-07T06:56:07+00:00"
+            "time": "2017-05-07T22:27:29+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -703,6 +856,59 @@
                 "image processing"
             ],
             "time": "2015-09-19T16:54:05+00:00"
+        },
+        {
+            "name": "intervention/httpauth",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Intervention/httpauth.git",
+                "reference": "69d4627c398c2d74b1c70aae7de7121e0b627c17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Intervention/httpauth/zipball/69d4627c398c2d74b1c70aae7de7121e0b627c17",
+                "reference": "69d4627c398c2d74b1c70aae7de7121e0b627c17",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Intervention\\Httpauth\\HttpauthServiceProvider"
+                    ],
+                    "aliases": {
+                        "Httpauth": "Intervention\\Httpauth\\Facades\\Httpauth"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Intervention\\Httpauth\\": "src/Intervention/Httpauth"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Vogel",
+                    "email": "oliver@olivervogel.com",
+                    "homepage": "http://olivervogel.com/"
+                }
+            ],
+            "description": "HTTP authentication (Basic & Digest) including ServiceProviders for easy Laravel integration",
+            "homepage": "https://github.com/Intervention/httpauth",
+            "keywords": [
+                "Authentication",
+                "http",
+                "laravel"
+            ],
+            "time": "2017-06-28T17:37:25+00:00"
         },
         {
             "name": "kartik-v/php-date-formatter",
@@ -966,16 +1172,16 @@
         },
         {
             "name": "kartik-v/yii2-widget-datetimepicker",
-            "version": "v1.4.3",
+            "version": "v1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-datetimepicker.git",
-                "reference": "41f849f90b41e94221b1f4e4589bba19bcfed16c"
+                "reference": "e843520aca008dc0807aa7ea99bfab2cc03c9a3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datetimepicker/zipball/41f849f90b41e94221b1f4e4589bba19bcfed16c",
-                "reference": "41f849f90b41e94221b1f4e4589bba19bcfed16c",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datetimepicker/zipball/e843520aca008dc0807aa7ea99bfab2cc03c9a3c",
+                "reference": "e843520aca008dc0807aa7ea99bfab2cc03c9a3c",
                 "shasum": ""
             },
             "require": {
@@ -1011,7 +1217,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-01-19T15:04:42+00:00"
+            "time": "2017-06-08T05:53:28+00:00"
         },
         {
             "name": "mihaildev/yii2-elfinder",
@@ -1064,33 +1270,180 @@
             "time": "2015-07-03T07:08:52+00:00"
         },
         {
-            "name": "mrclay/minify",
-            "version": "2.3.0",
+            "name": "monolog/monolog",
+            "version": "1.23.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mrclay/minify.git",
-                "reference": "f4cb31135d288f951bb0af1f23a03d4c00ba9446"
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrclay/minify/zipball/f4cb31135d288f951bb0af1f23a03d4c00ba9446",
-                "reference": "f4cb31135d288f951bb0af1f23a03d4c00ba9446",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
+            "name": "mrclay/jsmin-php",
+            "version": "2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrclay/jsmin-php.git",
+                "reference": "932c9633c35b390beb2cfdea69a41ea7dbc8d759"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrclay/jsmin-php/zipball/932c9633c35b390beb2cfdea69a41ea7dbc8d759",
+                "reference": "932c9633c35b390beb2cfdea69a41ea7dbc8d759",
                 "shasum": ""
             },
             "require": {
                 "ext-pcre": "*",
-                "php": ">=5.2.1"
+                "php": ">=5.3.0"
             },
             "require-dev": {
-                "tubalmartin/cssmin": "~2.4.8"
-            },
-            "suggest": {
-                "tubalmartin/cssmin": "Support minify with CSSMin (YUI PHP port)"
+                "phpunit/phpunit": "4.2"
             },
             "type": "library",
             "autoload": {
+                "psr-0": {
+                    "JSMin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Clay",
+                    "email": "steve@mrclay.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Ryan Grove",
+                    "email": "ryan@wonko.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Provides a modified port of Douglas Crockford's jsmin.c, which removes unnecessary whitespace from JavaScript files.",
+            "homepage": "https://github.com/mrclay/jsmin-php/",
+            "keywords": [
+                "compress",
+                "jsmin",
+                "minify"
+            ],
+            "time": "2015-03-30T15:04:42+00:00"
+        },
+        {
+            "name": "mrclay/minify",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrclay/minify.git",
+                "reference": "6a5b09a00e089bdf3e14d545fadd1525abac5e61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrclay/minify/zipball/6a5b09a00e089bdf3e14d545fadd1525abac5e61",
+                "reference": "6a5b09a00e089bdf3e14d545fadd1525abac5e61",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "intervention/httpauth": "~2.0",
+                "monolog/monolog": "~1.1",
+                "mrclay/jsmin-php": "~2",
+                "mrclay/props-dic": "^2.2",
+                "php": "^5.3.0 || ^7.0",
+                "tubalmartin/cssmin": "~4"
+            },
+            "require-dev": {
+                "firephp/firephp-core": "~0.4.0",
+                "leafo/lessphp": "~0.4.0",
+                "leafo/scssphp": "~0.6.6",
+                "meenie/javascript-packer": "~1.1",
+                "phpunit/phpunit": "4.8.*",
+                "tedivm/jshrink": "~1.1.0"
+            },
+            "suggest": {
+                "firephp/firephp-core": "Use FirePHP for Log messages",
+                "leafo/lessphp": "LESS support",
+                "meenie/javascript-packer": "Keep track of the Packer PHP port using Composer"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
                 "classmap": [
-                    "min/lib/"
+                    "lib/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1105,8 +1458,60 @@
                 }
             ],
             "description": "Minify is a PHP5 app that helps you follow several rules for client-side performance. It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers",
-            "homepage": "http://code.google.com/p/minify/",
-            "time": "2016-03-08T11:49:57+00:00"
+            "homepage": "https://github.com/mrclay/minify",
+            "time": "2017-06-08T19:33:53+00:00"
+        },
+        {
+            "name": "mrclay/props-dic",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrclay/Props.git",
+                "reference": "9ed6cf3a027f1eab03abdd134ec209467cf9c77e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrclay/Props/zipball/9ed6cf3a027f1eab03abdd134ec209467cf9c77e",
+                "reference": "9ed6cf3a027f1eab03abdd134ec209467cf9c77e",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "^1.1",
+                "php": ">=5.3.3",
+                "pimple/pimple": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Props\\": [
+                        "src/",
+                        "test/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Clay",
+                    "email": "steve@mrclay.org",
+                    "homepage": "http://www.mrclay.org/"
+                }
+            ],
+            "description": "Props is a simple DI container that allows retrieving values via custom property and method names",
+            "keywords": [
+                "container",
+                "dependency injection",
+                "dependency injection container",
+                "di",
+                "di container"
+            ],
+            "time": "2016-02-10T18:59:20+00:00"
         },
         {
             "name": "natxet/CssMin",
@@ -1156,46 +1561,388 @@
             "time": "2015-09-25T11:13:11+00:00"
         },
         {
-            "name": "skeeks/cms",
-            "version": "3.2.2.1",
+            "name": "paulzi/yii2-adjacency-list",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/skeeks-cms/cms.git",
-                "reference": "d233fc981489d4c8ac271147aae1bd03c208d142"
+                "url": "https://github.com/paulzi/yii2-adjacency-list.git",
+                "reference": "9371a006a82fcc64220ec084d51f5f7e431bda6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/d233fc981489d4c8ac271147aae1bd03c208d142",
-                "reference": "d233fc981489d4c8ac271147aae1bd03c208d142",
+                "url": "https://api.github.com/repos/paulzi/yii2-adjacency-list/zipball/9371a006a82fcc64220ec084d51f5f7e431bda6c",
+                "reference": "9371a006a82fcc64220ec084d51f5f7e431bda6c",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/fancybox": "*",
-                "giggsey/libphonenumber-for-php": "~7.0",
-                "kartik-v/yii2-datecontrol": "*",
-                "kartik-v/yii2-widget-colorinput": "*",
-                "kartik-v/yii2-widget-datepicker": "*",
-                "kartik-v/yii2-widget-datetimepicker": "*",
-                "mihaildev/yii2-elfinder": "1.1.3",
+                "paulzi/yii2-sortable": "~1.0",
                 "php": ">=5.4.0",
-                "skeeks/cms-admin": "*",
-                "skeeks/cms-marketplace": "*",
-                "skeeks/cms-rbac": "*",
-                "skeeks/yii2-ckeditor": "*",
-                "skeeks/yii2-imagine": "*",
-                "skeeks/yii2-sx": "*",
-                "skeeks/yii2-widget-chosen": "*",
-                "skeeks/yii2-widget-codemirror": "*",
-                "skeeks/yii2-widget-highcharts": "*",
-                "skeeks/yii2-widget-simpleajaxuploader": "*",
-                "yiisoft/yii2": "*",
-                "yiisoft/yii2-bootstrap": "*",
-                "yiisoft/yii2-jui": "*"
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
             },
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "skeeks\\cms\\": ""
+                    "paulzi\\adjacencyList\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PaulZi",
+                    "email": "pavel.zimakoff@gmail.com"
+                }
+            ],
+            "description": "Adjacency List Behavior for Yii2",
+            "keywords": [
+                "adjacency list",
+                "yii2"
+            ],
+            "time": "2016-10-13T22:16:03+00:00"
+        },
+        {
+            "name": "paulzi/yii2-auto-tree",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paulzi/yii2-auto-tree.git",
+                "reference": "4103fb4b9843470b75cde1d67455e89739f7b9e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paulzi/yii2-auto-tree/zipball/4103fb4b9843470b75cde1d67455e89739f7b9e6",
+                "reference": "4103fb4b9843470b75cde1d67455e89739f7b9e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "paulzi/yii2-adjacency-list": "^2.0.3",
+                "paulzi/yii2-materialized-path": "^2.0.6",
+                "paulzi/yii2-nested-intervals": "^1.0.5",
+                "paulzi/yii2-nested-sets": "^1.0.4",
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "paulzi\\autotree\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PaulZi",
+                    "email": "pavel.zimakoff@gmail.com"
+                }
+            ],
+            "description": "Allow apply multiple tree behavior for ActiveRecord in Yii2",
+            "keywords": [
+                "adjacency list",
+                "auto tree",
+                "materialized path",
+                "nested intervals",
+                "nested sets",
+                "yii2"
+            ],
+            "time": "2016-07-21T14:14:10+00:00"
+        },
+        {
+            "name": "paulzi/yii2-materialized-path",
+            "version": "v2.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paulzi/yii2-materialized-path.git",
+                "reference": "132f963da78137013f8748bd6a6e55a6e813c265"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paulzi/yii2-materialized-path/zipball/132f963da78137013f8748bd6a6e55a6e813c265",
+                "reference": "132f963da78137013f8748bd6a6e55a6e813c265",
+                "shasum": ""
+            },
+            "require": {
+                "paulzi/yii2-sortable": "~1.0",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "paulzi\\materializedPath\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PaulZi",
+                    "email": "pavel.zimakoff@gmail.com"
+                }
+            ],
+            "description": "Materialized Path Behavior for Yii2",
+            "keywords": [
+                "materialized path",
+                "yii2"
+            ],
+            "time": "2016-10-13T22:19:19+00:00"
+        },
+        {
+            "name": "paulzi/yii2-sortable",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paulzi/yii2-sortable.git",
+                "reference": "2d51e8a923acb4cc385e8d28faa0e8d179aa014e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paulzi/yii2-sortable/zipball/2d51e8a923acb4cc385e8d28faa0e8d179aa014e",
+                "reference": "2d51e8a923acb4cc385e8d28faa0e8d179aa014e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "paulzi\\sortable\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PaulZi",
+                    "email": "pavel.zimakoff@gmail.com"
+                }
+            ],
+            "description": "Sortable Behavior for Yii2",
+            "keywords": [
+                "sortable",
+                "yii2"
+            ],
+            "time": "2016-08-31T10:37:13+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2017-07-23T07:32:15+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "skeeks/cms",
+            "version": "4.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-cms/cms.git",
+                "reference": "1479ac6da8f88859ea38bf9599d5c0ccdbe6c45b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/1479ac6da8f88859ea38bf9599d5c0ccdbe6c45b",
+                "reference": "1479ac6da8f88859ea38bf9599d5c0ccdbe6c45b",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fancybox": "^3.1",
+                "giggsey/libphonenumber-for-php": "~7.0",
+                "kartik-v/yii2-datecontrol": "^1",
+                "kartik-v/yii2-widget-colorinput": "^1",
+                "kartik-v/yii2-widget-datepicker": "^1",
+                "kartik-v/yii2-widget-datetimepicker": "^1",
+                "mihaildev/yii2-elfinder": "1.1.3",
+                "paulzi/yii2-adjacency-list": "^2.0",
+                "paulzi/yii2-auto-tree": "^1.0",
+                "paulzi/yii2-materialized-path": "^2.0",
+                "php": ">=5.5.0",
+                "skeeks/cms-admin": "dev-master",
+                "skeeks/cms-backend": "^1",
+                "skeeks/cms-backend-admin": "^1",
+                "skeeks/cms-marketplace": "^1",
+                "skeeks/cms-rbac": "^2",
+                "skeeks/yii2-ajax-file-upload": "^1",
+                "skeeks/yii2-ckeditor": "^1",
+                "skeeks/yii2-imagine": "^2",
+                "skeeks/yii2-sx": "^1.2",
+                "skeeks/yii2-widget-chosen": "^1",
+                "skeeks/yii2-widget-codemirror": "^1",
+                "skeeks/yii2-widget-highcharts": "^1",
+                "skeeks/yii2-widget-simpleajaxuploader": "^1",
+                "yiisoft/yii2": "^2.0",
+                "yiisoft/yii2-bootstrap": "^2.0",
+                "yiisoft/yii2-jui": "^2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\cms\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1225,20 +1972,20 @@
                 "skeeks cms",
                 "yii2"
             ],
-            "time": "2017-02-25T23:04:47+00:00"
+            "time": "2017-08-31T10:27:41+00:00"
         },
         {
             "name": "skeeks/cms-admin",
-            "version": "1.2.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-admin.git",
-                "reference": "1f0f32db9f9163930d2b3328befc6428e9802fc9"
+                "reference": "e7e6109fd4598dbd31a69b6ff43ef4c48860ca1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-admin/zipball/1f0f32db9f9163930d2b3328befc6428e9802fc9",
-                "reference": "1f0f32db9f9163930d2b3328befc6428e9802fc9",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-admin/zipball/e7e6109fd4598dbd31a69b6ff43ef4c48860ca1e",
+                "reference": "e7e6109fd4598dbd31a69b6ff43ef4c48860ca1e",
                 "shasum": ""
             },
             "require": {
@@ -1247,7 +1994,7 @@
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "skeeks\\cms\\modules\\admin\\": ""
+                    "skeeks\\cms\\modules\\admin\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1269,20 +2016,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-02-28T09:41:41+00:00"
+            "time": "2017-08-25T21:35:53+00:00"
         },
         {
             "name": "skeeks/cms-agent",
-            "version": "1.0.2",
+            "version": "1.1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-agent.git",
-                "reference": "165373c1aa7b091ebcd132fd3000a8e79e4ed098"
+                "reference": "a88f24c6db6aca08decb6bd7103ff6e54b6187b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-agent/zipball/165373c1aa7b091ebcd132fd3000a8e79e4ed098",
-                "reference": "165373c1aa7b091ebcd132fd3000a8e79e4ed098",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-agent/zipball/a88f24c6db6aca08decb6bd7103ff6e54b6187b6",
+                "reference": "a88f24c6db6aca08decb6bd7103ff6e54b6187b6",
                 "shasum": ""
             },
             "require": {
@@ -1313,20 +2060,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-09-27T10:37:54+00:00"
+            "time": "2017-07-03T13:42:16+00:00"
         },
         {
             "name": "skeeks/cms-assets-auto-compress",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-assets-auto-compress.git",
-                "reference": "0ba78124cf5b8773315677b4f92dc4762ce2b661"
+                "reference": "67fdaf3b706fb1bef81c0638911e2aee710aa681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-assets-auto-compress/zipball/0ba78124cf5b8773315677b4f92dc4762ce2b661",
-                "reference": "0ba78124cf5b8773315677b4f92dc4762ce2b661",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-assets-auto-compress/zipball/67fdaf3b706fb1bef81c0638911e2aee710aa681",
+                "reference": "67fdaf3b706fb1bef81c0638911e2aee710aa681",
                 "shasum": ""
             },
             "require": {
@@ -1361,7 +2108,94 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-07-29T15:29:04+00:00"
+            "time": "2017-06-18T18:40:38+00:00"
+        },
+        {
+            "name": "skeeks/cms-backend",
+            "version": "1.0.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-cms/cms-backend.git",
+                "reference": "b455b08e6f0f321593cafd93c9feb9b6a13c03df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-backend/zipball/b455b08e6f0f321593cafd93c9feb9b6a13c03df",
+                "reference": "b455b08e6f0f321593cafd93c9feb9b6a13c03df",
+                "shasum": ""
+            },
+            "require": {
+                "skeeks/cms": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\cms\\backend\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                }
+            ],
+            "description": "SkeekS CMS backend",
+            "homepage": "https://cms.skeeks.com/",
+            "keywords": [
+                "component",
+                "framework",
+                "skeeks",
+                "yii"
+            ],
+            "time": "2017-08-25T21:35:17+00:00"
+        },
+        {
+            "name": "skeeks/cms-backend-admin",
+            "version": "1.0.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-cms/cms-backend-admin.git",
+                "reference": "2a5b482c6bdde65e344f784ede39bad7f3364d1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-backend-admin/zipball/2a5b482c6bdde65e344f784ede39bad7f3364d1d",
+                "reference": "2a5b482c6bdde65e344f784ede39bad7f3364d1d",
+                "shasum": ""
+            },
+            "require": {
+                "skeeks/cms": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\cms\\admin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                }
+            ],
+            "description": "Admin controll panel for SkeekS CMS",
+            "homepage": "https://cms.skeeks.com/",
+            "keywords": [
+                "admin",
+                "component",
+                "framework",
+                "skeeks",
+                "yii"
+            ],
+            "time": "2017-08-25T21:36:17+00:00"
         },
         {
             "name": "skeeks/cms-db-dumper",
@@ -1411,16 +2245,16 @@
         },
         {
             "name": "skeeks/cms-log-db-target",
-            "version": "1.3.1",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-log-db-target.git",
-                "reference": "9df0e6077d9c5917d966fd029542d46674766f1a"
+                "reference": "55892dc2614e0113d6f525725cc247be39da3453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-log-db-target/zipball/9df0e6077d9c5917d966fd029542d46674766f1a",
-                "reference": "9df0e6077d9c5917d966fd029542d46674766f1a",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-log-db-target/zipball/55892dc2614e0113d6f525725cc247be39da3453",
+                "reference": "55892dc2614e0113d6f525725cc247be39da3453",
                 "shasum": ""
             },
             "require": {
@@ -1455,20 +2289,20 @@
                 "target",
                 "yii2"
             ],
-            "time": "2016-10-12T22:06:41+00:00"
+            "time": "2017-08-18T09:35:05+00:00"
         },
         {
             "name": "skeeks/cms-mailer",
-            "version": "1.0.0.1",
+            "version": "2.0.0-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-mailer.git",
-                "reference": "faedfdc4f7c12b713de36cde27ddc39190791a09"
+                "reference": "f77cdbae0780eaca4083c8373dd0d7d6cadc65ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-mailer/zipball/faedfdc4f7c12b713de36cde27ddc39190791a09",
-                "reference": "faedfdc4f7c12b713de36cde27ddc39190791a09",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-mailer/zipball/f77cdbae0780eaca4083c8373dd0d7d6cadc65ab",
+                "reference": "f77cdbae0780eaca4083c8373dd0d7d6cadc65ab",
                 "shasum": ""
             },
             "require": {
@@ -1500,20 +2334,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-07-22T16:38:27+00:00"
+            "time": "2017-06-18T15:23:47+00:00"
         },
         {
             "name": "skeeks/cms-marketplace",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-marketplace.git",
-                "reference": "c062536e9a03008727f32e6b375e8d2b02d3e32d"
+                "reference": "abc1212c19044f660380cc424f2cb4e3e91902c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-marketplace/zipball/c062536e9a03008727f32e6b375e8d2b02d3e32d",
-                "reference": "c062536e9a03008727f32e6b375e8d2b02d3e32d",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-marketplace/zipball/abc1212c19044f660380cc424f2cb4e3e91902c2",
+                "reference": "abc1212c19044f660380cc424f2cb4e3e91902c2",
                 "shasum": ""
             },
             "require": {
@@ -1545,20 +2379,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-12-22T23:15:16+00:00"
+            "time": "2017-03-02T22:44:13+00:00"
         },
         {
             "name": "skeeks/cms-module-form2",
-            "version": "2.3.3",
+            "version": "2.4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-module-form2.git",
-                "reference": "80898a9e8bdf22957cf30461b8b7a9fecefb3bcd"
+                "reference": "e0d8d07de6d6748578c23c965d1f5b8586663ec2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-module-form2/zipball/80898a9e8bdf22957cf30461b8b7a9fecefb3bcd",
-                "reference": "80898a9e8bdf22957cf30461b8b7a9fecefb3bcd",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-module-form2/zipball/e0d8d07de6d6748578c23c965d1f5b8586663ec2",
+                "reference": "e0d8d07de6d6748578c23c965d1f5b8586663ec2",
                 "shasum": ""
             },
             "require": {
@@ -1590,20 +2424,20 @@
                 "skeeks",
                 "yii2"
             ],
-            "time": "2016-12-26T07:12:08+00:00"
+            "time": "2017-08-14T20:41:59+00:00"
         },
         {
             "name": "skeeks/cms-rbac",
-            "version": "1.1.0",
+            "version": "2.0.0-alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-rbac.git",
-                "reference": "b384ebe076d041cb6d03febd1ba3d5f7f599e131"
+                "reference": "03ac04a0c3f517cfaf4bac8e0300fdac32d5681a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-rbac/zipball/b384ebe076d041cb6d03febd1ba3d5f7f599e131",
-                "reference": "b384ebe076d041cb6d03febd1ba3d5f7f599e131",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-rbac/zipball/03ac04a0c3f517cfaf4bac8e0300fdac32d5681a",
+                "reference": "03ac04a0c3f517cfaf4bac8e0300fdac32d5681a",
                 "shasum": ""
             },
             "require": {
@@ -1634,20 +2468,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-02-09T07:31:10+00:00"
+            "time": "2017-06-18T15:15:44+00:00"
         },
         {
             "name": "skeeks/cms-search",
-            "version": "1.0.0.1",
+            "version": "2.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-search.git",
-                "reference": "b999f6745b7173f3b5161096eb0ded9a73526e16"
+                "reference": "9d6f2bfe919e755233f5fc3cbfb5349bba55069e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-search/zipball/b999f6745b7173f3b5161096eb0ded9a73526e16",
-                "reference": "b999f6745b7173f3b5161096eb0ded9a73526e16",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-search/zipball/9d6f2bfe919e755233f5fc3cbfb5349bba55069e",
+                "reference": "9d6f2bfe919e755233f5fc3cbfb5349bba55069e",
                 "shasum": ""
             },
             "require": {
@@ -1678,20 +2512,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-07-28T10:21:32+00:00"
+            "time": "2017-07-09T09:52:14+00:00"
         },
         {
             "name": "skeeks/cms-seo",
-            "version": "1.0.1",
+            "version": "2.0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-seo.git",
-                "reference": "1db846671c98a828e0e4c490898337caabae4c59"
+                "reference": "33af41d4cc2cfe2715fc3e1490118a6b31008352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-seo/zipball/1db846671c98a828e0e4c490898337caabae4c59",
-                "reference": "1db846671c98a828e0e4c490898337caabae4c59",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-seo/zipball/33af41d4cc2cfe2715fc3e1490118a6b31008352",
+                "reference": "33af41d4cc2cfe2715fc3e1490118a6b31008352",
                 "shasum": ""
             },
             "require": {
@@ -1722,7 +2556,7 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-12-25T19:16:06+00:00"
+            "time": "2017-08-30T06:35:02+00:00"
         },
         {
             "name": "skeeks/cms-ssh-console",
@@ -1769,17 +2603,64 @@
             "time": "2016-05-28T13:43:31+00:00"
         },
         {
-            "name": "skeeks/yii2-assets-auto-compress",
-            "version": "1.2.3",
+            "name": "skeeks/yii2-ajax-file-upload",
+            "version": "1.0.0-beta",
             "source": {
                 "type": "git",
-                "url": "https://github.com/skeeks-semenov/yii2-assets-auto-compress.git",
-                "reference": "18d80abd2bbce79e11fa1c0484ab72f08e772cb2"
+                "url": "https://github.com/skeeks-semenov/yii2-ajax-file-upload.git",
+                "reference": "af881cc79492d3cee839bd691a4ebf6f5199bd27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-assets-auto-compress/zipball/18d80abd2bbce79e11fa1c0484ab72f08e772cb2",
-                "reference": "18d80abd2bbce79e11fa1c0484ab72f08e772cb2",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-ajax-file-upload/zipball/af881cc79492d3cee839bd691a4ebf6f5199bd27",
+                "reference": "af881cc79492d3cee839bd691a4ebf6f5199bd27",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-file-upload-widget": "*",
+                "skeeks/yii2-imagine": "*",
+                "skeeks/yii2-sx": "*",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-httpclient": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\yii2\\ajaxfileupload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                }
+            ],
+            "description": "Yii2 files upload",
+            "homepage": "https://cms.skeeks.com/",
+            "keywords": [
+                "component",
+                "framework",
+                "skeeks",
+                "yii"
+            ],
+            "time": "2017-08-31T07:34:15+00:00"
+        },
+        {
+            "name": "skeeks/yii2-assets-auto-compress",
+            "version": "1.2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-semenov/yii2-assets-auto-compress.git",
+                "reference": "9626882cf35f04fc7cde07a61ea69a819689737f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-assets-auto-compress/zipball/9626882cf35f04fc7cde07a61ea69a819689737f",
+                "reference": "9626882cf35f04fc7cde07a61ea69a819689737f",
                 "shasum": ""
             },
             "require": {
@@ -1817,7 +2698,7 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-11-11T08:29:19+00:00"
+            "time": "2017-07-14T16:55:12+00:00"
         },
         {
             "name": "skeeks/yii2-ckeditor",
@@ -1867,16 +2748,16 @@
         },
         {
             "name": "skeeks/yii2-curl",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-curl.git",
-                "reference": "5eb85660874485c4bd67ccaa3ef415105d612a5a"
+                "reference": "4bf98f3f7deb794821378d9d40ab6b860b1a4289"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-curl/zipball/5eb85660874485c4bd67ccaa3ef415105d612a5a",
-                "reference": "5eb85660874485c4bd67ccaa3ef415105d612a5a",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-curl/zipball/4bf98f3f7deb794821378d9d40ab6b860b1a4289",
+                "reference": "4bf98f3f7deb794821378d9d40ab6b860b1a4289",
                 "shasum": ""
             },
             "require": {
@@ -1910,7 +2791,7 @@
                 "restful",
                 "yii2"
             ],
-            "time": "2015-06-24T23:18:43+00:00"
+            "time": "2017-05-08T17:51:14+00:00"
         },
         {
             "name": "skeeks/yii2-imagine",
@@ -1958,20 +2839,20 @@
         },
         {
             "name": "skeeks/yii2-sx",
-            "version": "1.2",
+            "version": "1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-sx.git",
-                "reference": "ba200bebc2a0f9903f0122557878bc34ee0cd718"
+                "reference": "c88ef46b7b500d7604b3efcccc78b7c675c621ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-sx/zipball/ba200bebc2a0f9903f0122557878bc34ee0cd718",
-                "reference": "ba200bebc2a0f9903f0122557878bc34ee0cd718",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-sx/zipball/c88ef46b7b500d7604b3efcccc78b7c675c621ae",
+                "reference": "c88ef46b7b500d7604b3efcccc78b7c675c621ae",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/underscore": "*",
+                "bower-asset/underscore": "^1.8",
                 "yiisoft/yii2": "*"
             },
             "type": "yii2-extension",
@@ -1999,7 +2880,7 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-10-05T15:28:05+00:00"
+            "time": "2017-07-27T07:26:51+00:00"
         },
         {
             "name": "skeeks/yii2-template-boomerang",
@@ -2226,29 +3107,30 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.6",
+            "version": "v6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
+                "reference": "008f088d535ed3333af5ad804dd4c0eaf97c2805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
-                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/008f088d535ed3333af5ad804dd4c0eaf97c2805",
+                "reference": "008f088d535ed3333af5ad804dd4c0eaf97c2805",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "egulias/email-validator": "~2.0",
+                "php": ">=7.0.0"
             },
             "require-dev": {
                 "mockery/mockery": "~0.9.1",
-                "symfony/phpunit-bridge": "~3.2"
+                "symfony/phpunit-bridge": "~3.3@dev"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.4-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -2276,29 +3158,29 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-02-13T07:52:53+00:00"
+            "time": "2017-05-20T06:20:27+00:00"
         },
         {
             "name": "tedivm/jshrink",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/JShrink.git",
-                "reference": "688527a2e854d7935f24f24c7d5eb1b604742bf9"
+                "reference": "667e99774d230525d4d3dc2a50da7ba6b1d56bad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/JShrink/zipball/688527a2e854d7935f24f24c7d5eb1b604742bf9",
-                "reference": "688527a2e854d7935f24f24c7d5eb1b604742bf9",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/667e99774d230525d4d3dc2a50da7ba6b1d56bad",
+                "reference": "667e99774d230525d4d3dc2a50da7ba6b1d56bad",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^5.6|^7.0"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "0.4.0",
                 "phpunit/phpunit": "4.0.*",
-                "satooshi/php-coveralls": "dev-master"
+                "satooshi/php-coveralls": "^0.7.0"
             },
             "type": "library",
             "autoload": {
@@ -2322,25 +3204,78 @@
                 "javascript",
                 "minifier"
             ],
-            "time": "2015-07-04T07:35:09+00:00"
+            "time": "2017-05-30T02:59:46+00:00"
         },
         {
-            "name": "yiisoft/yii2",
-            "version": "2.0.11.2",
+            "name": "tubalmartin/cssmin",
+            "version": "v4.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "ee996adec1dfd7babb67bd0c604f5bd6425fe5ab"
+                "url": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port.git",
+                "reference": "1c7ae93cf6b392d4dae5c4ae18979918413af16e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ee996adec1dfd7babb67bd0c604f5bd6425fe5ab",
-                "reference": "ee996adec1dfd7babb67bd0c604f5bd6425fe5ab",
+                "url": "https://api.github.com/repos/tubalmartin/YUI-CSS-compressor-PHP-port/zipball/1c7ae93cf6b392d4dae5c4ae18979918413af16e",
+                "reference": "1c7ae93cf6b392d4dae5c4ae18979918413af16e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "cogpowered/finediff": "0.3.*",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "bin": [
+                "cssmin"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "tubalmartin\\CssMin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Túbal Martín",
+                    "homepage": "http://tubalmartin.me/"
+                }
+            ],
+            "description": "A PHP port of the YUI CSS compressor",
+            "homepage": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port",
+            "keywords": [
+                "compress",
+                "compressor",
+                "css",
+                "cssmin",
+                "minify",
+                "yui"
+            ],
+            "time": "2017-05-16T13:45:26+00:00"
+        },
+        {
+            "name": "yiisoft/yii2",
+            "version": "2.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-framework.git",
+                "reference": "70acbecc75cb26b6cd66d16be0b06e4b73db190d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/70acbecc75cb26b6cd66d16be0b06e4b73db190d",
+                "reference": "70acbecc75cb26b6cd66d16be0b06e4b73db190d",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
-                "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.3",
+                "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.5",
                 "bower-asset/punycode": "1.3.*",
                 "bower-asset/yii2-pjax": "~2.0.1",
                 "cebe/markdown": "~1.0.0 | ~1.1.0",
@@ -2422,7 +3357,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-02-08T09:04:32+00:00"
+            "time": "2017-06-05T14:33:41+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -2572,6 +3507,53 @@
             "time": "2017-02-21T10:30:50+00:00"
         },
         {
+            "name": "yiisoft/yii2-httpclient",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-httpclient.git",
+                "reference": "720e3c9bdda260abffe61babfe39b91c4308ac4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/720e3c9bdda260abffe61babfe39b91c4308ac4c",
+                "reference": "720e3c9bdda260abffe61babfe39b91c4308ac4c",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\httpclient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "HTTP client extension for the Yii framework",
+            "keywords": [
+                "curl",
+                "http",
+                "httpclient",
+                "yii2"
+            ],
+            "time": "2017-06-23T09:36:13+00:00"
+        },
+        {
             "name": "yiisoft/yii2-jui",
             "version": "2.0.6",
             "source": {
@@ -2623,20 +3605,20 @@
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
-            "version": "2.0.6",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-swiftmailer.git",
-                "reference": "26b900767f1031ff3a4668dfa36c10595875f0a5"
+                "reference": "563570c9aa19ca47c1b22e3032983229378e9274"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/26b900767f1031ff3a4668dfa36c10595875f0a5",
-                "reference": "26b900767f1031ff3a4668dfa36c10595875f0a5",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/563570c9aa19ca47c1b22e3032983229378e9274",
+                "reference": "563570c9aa19ca47c1b22e3032983229378e9274",
                 "shasum": ""
             },
             "require": {
-                "swiftmailer/swiftmailer": "~5.0",
+                "swiftmailer/swiftmailer": "~6.0",
                 "yiisoft/yii2": "~2.0.4"
             },
             "type": "yii2-extension",
@@ -2669,7 +3651,7 @@
                 "swiftmailer",
                 "yii2"
             ],
-            "time": "2016-09-09T11:48:11+00:00"
+            "time": "2017-08-04T10:48:17+00:00"
         }
     ],
     "packages-dev": [],
