@@ -17,16 +17,9 @@
         }
     ],
     "require": {
-        "skeeks/cms": "^4.0",
-        "skeeks/cms-module-form2": "^2",
-        "skeeks/cms-agent": "^1.1",
-        "skeeks/cms-mailer": "^2",
-        "skeeks/cms-seo": "^2",
-        "skeeks/cms-search": "^2",
-        "skeeks/cms-db-dumper": "^1",
-        "skeeks/cms-ssh-console": "^1",
-        "skeeks/cms-log-db-target": "^1",
-        "skeeks/cms-assets-auto-compress": "^1.4",
+        "skeeks/cms-basic": "dev-master",
+        "skeeks/cms": "~4.1.0",
+        "skeeks/cms-ssh-console": "^1.1.0",
         "skeeks/yii2-template-boomerang": "^1",
         "yiisoft/yii2-debug": "*"
     },
@@ -51,27 +44,30 @@
         ]
     },
     "extra": {
-        "yii\\composer\\Installer::postCreateProject": {
-            "setPermission": [
-                {
-                    "console/runtime": "0777",
-                    "common/runtime": "0777",
-                    "frontend/runtime": "0777",
-                    "frontend/web/assets": "0777",
-                    "yii": "0755"
-                }
-            ]
-        },
-        "yii\\composer\\Installer::postInstall": {
-            "generateCookieValidationKey": [
+        "config-plugin": {
+            "web": [
+                "common/config/main.php",
                 "frontend/config/main.php"
-            ]
-        },
-        "skeeks\\cms\\composer\\Installer::clearDirs": {
-            "dirs": [
-                "console/runtime/cache",
-                "frontend/runtime/cache",
-                "frontend/web/assets"
+            ],
+            "web-dev": [
+                "$web",
+                "?frontend/config/env/dev/main.php"
+            ],
+            "web-prod": [
+                "$web",
+                "?frontend/config/env/prod/main.php"
+            ],
+            "console": [
+                "common/config/main.php",
+                "console/config/main.php"
+            ],
+            "console-dev": [
+                "$console",
+                "?console/config/env/dev/main.php"
+            ],
+            "console-prod": [
+                "$console",
+                "?console/config/env/prod/main.php"
             ]
         }
     },
@@ -79,6 +75,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "git",
+            "url":  "https://github.com/skeeks-cms/cms-basic.git"
         }
     ],
     "config": {

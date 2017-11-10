@@ -14,7 +14,7 @@ $config = [
 
     'components'    =>
     [
-        'db' => include_once __DIR__ . '/db.php',
+        'db' => require __DIR__ . '/db.php',
 
         'urlManager' => [
             'rules' => [
@@ -36,21 +36,6 @@ $config = [
         [
             'linkAssets'        => false,
         ],
-
-        /*'log' => [
-            'traceLevel' => YII_DEBUG ? 3 : 0,
-            'targets' => [
-                [
-                    'class'     => 'yii\log\FileTarget',
-                    'logVars'   => [],
-                    'levels' => [
-                        'error',
-                        'warning'
-                    ],
-                ],
-            ],
-        ],*/
-
 
         'templateBoomerang' => [
             'class' => 'common\components\boomerang\TemplateBoomerang',

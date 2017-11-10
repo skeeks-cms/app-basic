@@ -10,7 +10,6 @@
  */
 $config = [
     'basePath' => dirname(__DIR__),
-    'controllerNamespace' => 'frontend\controllers',
 
     'params' => [],
 
@@ -20,10 +19,6 @@ $config = [
 
     'components' =>
     [
-        'errorHandler' => [
-            'errorAction' => 'cms/error/error',
-        ],
-
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'skeeks2',
@@ -37,19 +32,6 @@ $config = [
                 'httpOnly' => true,
                 'domain' => '.cms.skeeks.com'
             ]*/
-        ],
-
-        'view' => [
-            'theme' =>
-            [
-                'pathMap'       =>
-                [
-                    '@app/views' =>
-                    [
-                        '@app/templates/default',
-                    ],
-                ]
-            ],
         ],
     ]
 ];
