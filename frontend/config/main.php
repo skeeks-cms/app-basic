@@ -9,8 +9,6 @@
  * @since 1.0.0
  */
 $config = [
-    'basePath' => dirname(__DIR__),
-
     'params' => [],
 
     'on beforeRequest' => function ($event) {

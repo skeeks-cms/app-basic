@@ -9,9 +9,6 @@
  * @since 1.0.0
  */
 $config = [
-    'name' => 'SkeekS CMS',
-    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-
     'components'    =>
     [
         'db' => require __DIR__ . '/db.php',

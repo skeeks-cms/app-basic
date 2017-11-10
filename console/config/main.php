@@ -6,7 +6,6 @@
  * @date 28.02.2017
  */
 return [
-    'basePath' => dirname(__DIR__),
     'bootstrap' => [],
     'components' => [],
     'params' => [],
