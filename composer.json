@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "skeeks/cms-basic": "dev-master",
+        "skeeks/cms-basic": "~1.0.0",
         "skeeks/cms": "~4.1.0",
         "skeeks/cms-ssh-console": "~1.1.0",
         "skeeks/yii2-template-boomerang": "~1.0.0",
@@ -31,8 +31,7 @@
             "yii\\composer\\Installer::postInstall"
         ],
         "post-install-cmd": [
-            "yii\\composer\\Installer::postInstall",
-            "skeeks\\cms\\composer\\Installer::postInstall"
+            "yii\\composer\\Installer::postInstall"
         ],
         "post-update-cmd": [
             "skeeks\\cms\\composer\\Installer::postUpdate",
@@ -44,6 +43,29 @@
         ]
     },
     "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "console/runtime": "0777",
+                    "common/runtime": "0777",
+                    "frontend/runtime": "0777",
+                    "frontend/web/assets": "0777",
+                    "yii": "0755"
+                }
+            ]
+        },
+        "yii\\composer\\Installer::postInstall": {
+            "generateCookieValidationKey": [
+                "frontend/config/main.php"
+            ]
+        },
+        "skeeks\\cms\\composer\\Installer::clearDirs": {
+            "dirs": [
+                "console/runtime/cache",
+                "frontend/runtime/cache",
+                "frontend/web/assets"
+            ]
+        },
         "config-plugin": {
             "web": [
                 "common/config/main.php",
@@ -75,10 +97,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "git",
-            "url":  "https://github.com/skeeks-cms/cms-basic.git"
         }
     ],
     "config": {
