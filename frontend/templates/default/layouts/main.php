@@ -20,7 +20,7 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-    <link rel="icon" href="/favicon-site.ico?v=<?= @filemtime(\Yii::getAlias('@app/web/favicon-site.ico'));?>"  type="image/x-icon" />
+    <link rel="icon" href="<?= AppAsset::getAssetUrl('favicon.ico'); ?>"  type="image/x-icon" />
     <?php $this->head() ?>
 </head>
 <body>
