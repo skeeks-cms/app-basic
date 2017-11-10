@@ -19,8 +19,8 @@
     "require": {
         "skeeks/cms-basic": "dev-master",
         "skeeks/cms": "~4.1.0",
-        "skeeks/cms-ssh-console": "^1.1.0",
-        "skeeks/yii2-template-boomerang": "^1",
+        "skeeks/cms-ssh-console": "~1.1.0",
+        "skeeks/yii2-template-boomerang": "~1.0.0",
         "yiisoft/yii2-debug": "*"
     },
     "minimum-stability" : "dev",
