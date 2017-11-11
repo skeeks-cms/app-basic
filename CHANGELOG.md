@@ -1,9 +1,9 @@
 Changelog
 =========
 
-5.0.0.pre
+5.0.0-alpha
 -----------------
-  * SkeekS CMS 5.0.0
+  * SkeekS CMS 5.0.0-alpha
   
 4.0.1
 -----------------
