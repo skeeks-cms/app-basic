@@ -10,9 +10,9 @@ return
     'components'    => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=skeeks',
-            'username' => 'skeeks',
-            'password' => 'N7j27QFsbMn4EV77',
+            'dsn' => 'mysql:host=localhost;dbname=app-basic',
+            'username' => 'app-basic',
+            'password' => 'hDZwcmEYc64vBtEB',
             'charset' => 'utf8',
             'enableSchemaCache' => true,
             'schemaCacheDuration' => 3600,
