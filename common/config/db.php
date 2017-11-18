@@ -10,7 +10,7 @@ return
     'components'    => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=app-basic',
+            'dsn' => 'mysql:host=localhost;dbname=app-basic_1',
             'username' => 'app-basic',
             'password' => 'hDZwcmEYc64vBtEB',
             'charset' => 'utf8',
