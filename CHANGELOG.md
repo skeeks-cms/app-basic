@@ -1,6 +1,10 @@
 Changelog
 =========
 
+5.0.0-alpha2
+-----------------
+  * SkeekS CMS 5.0.0-alpha4
+  
 5.0.0-alpha
 -----------------
   * SkeekS CMS 5.0.0-alpha
