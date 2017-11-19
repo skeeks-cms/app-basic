@@ -273,16 +273,16 @@
         },
         {
             "name": "bower-asset/fancybox",
-            "version": "v3.2.0",
+            "version": "v3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fancyapps/fancybox.git",
-                "reference": "cb73667298523e1261ebd2856f7ca959fd5b7d94"
+                "reference": "e68489e6f29334f85b6b98d995469f6be5a13b19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fancyapps/fancybox/zipball/cb73667298523e1261ebd2856f7ca959fd5b7d94",
-                "reference": "cb73667298523e1261ebd2856f7ca959fd5b7d94",
+                "url": "https://api.github.com/repos/fancyapps/fancybox/zipball/e68489e6f29334f85b6b98d995469f6be5a13b19",
+                "reference": "e68489e6f29334f85b6b98d995469f6be5a13b19",
                 "shasum": null
             },
             "require": {
@@ -2058,16 +2058,16 @@
         },
         {
             "name": "skeeks/cms",
-            "version": "5.0.0-alpha3",
+            "version": "5.0.0-alpha5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms.git",
-                "reference": "2d656fe141ce10a9b99a8a65e4709908e471ab16"
+                "reference": "8d36907758aee41199b890aaf9f09225cad919ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/2d656fe141ce10a9b99a8a65e4709908e471ab16",
-                "reference": "2d656fe141ce10a9b99a8a65e4709908e471ab16",
+                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/8d36907758aee41199b890aaf9f09225cad919ce",
+                "reference": "8d36907758aee41199b890aaf9f09225cad919ce",
                 "shasum": ""
             },
             "require": {
@@ -2150,20 +2150,20 @@
                 "skeeks cms",
                 "yii2"
             ],
-            "time": "2017-11-15T19:37:43+00:00"
+            "time": "2017-11-18T20:19:41+00:00"
         },
         {
             "name": "skeeks/cms-admin",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-admin.git",
-                "reference": "3f10a5fa0fc3ba6b2db9d9fe3ba0e468e2dfd107"
+                "reference": "a450aa83f7efdb0f992cf6fbebd250172d68359d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-admin/zipball/3f10a5fa0fc3ba6b2db9d9fe3ba0e468e2dfd107",
-                "reference": "3f10a5fa0fc3ba6b2db9d9fe3ba0e468e2dfd107",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-admin/zipball/a450aa83f7efdb0f992cf6fbebd250172d68359d",
+                "reference": "a450aa83f7efdb0f992cf6fbebd250172d68359d",
                 "shasum": ""
             },
             "require": {
@@ -2201,7 +2201,7 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-11T18:36:23+00:00"
+            "time": "2017-11-18T20:20:22+00:00"
         },
         {
             "name": "skeeks/cms-agent",
@@ -2627,16 +2627,16 @@
         },
         {
             "name": "skeeks/cms-log-db-target",
-            "version": "1.4.1",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-log-db-target.git",
-                "reference": "1763b5a4c934ae72edf534a3db48bfb80b53f2a8"
+                "reference": "b02df69640a902acb79e55b16b82c2968c123016"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-log-db-target/zipball/1763b5a4c934ae72edf534a3db48bfb80b53f2a8",
-                "reference": "1763b5a4c934ae72edf534a3db48bfb80b53f2a8",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-log-db-target/zipball/b02df69640a902acb79e55b16b82c2968c123016",
+                "reference": "b02df69640a902acb79e55b16b82c2968c123016",
                 "shasum": ""
             },
             "require": {
@@ -2671,7 +2671,7 @@
                 }
             ],
             "description": "Error logging in mysql database for SkeekS CMS",
-            "homepage": "http://www.skeeks.com/",
+            "homepage": "https://skeeks.com/",
             "keywords": [
                 "Sx",
                 "app",
@@ -2683,7 +2683,7 @@
                 "target",
                 "yii2"
             ],
-            "time": "2017-11-15T16:33:53+00:00"
+            "time": "2017-11-18T20:20:58+00:00"
         },
         {
             "name": "skeeks/cms-mailer",
@@ -2790,16 +2790,16 @@
         },
         {
             "name": "skeeks/cms-module-form2",
-            "version": "2.5.1",
+            "version": "2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-module-form2.git",
-                "reference": "1c10120c5b1d29fefb388d34e2dc441b33e3d20c"
+                "reference": "9ce21bd692a5fc21a78c3b79c9f6df88718eb9ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-module-form2/zipball/1c10120c5b1d29fefb388d34e2dc441b33e3d20c",
-                "reference": "1c10120c5b1d29fefb388d34e2dc441b33e3d20c",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-module-form2/zipball/9ce21bd692a5fc21a78c3b79c9f6df88718eb9ac",
+                "reference": "9ce21bd692a5fc21a78c3b79c9f6df88718eb9ac",
                 "shasum": ""
             },
             "require": {
@@ -2836,7 +2836,7 @@
                 "skeeks",
                 "yii2"
             ],
-            "time": "2017-11-10T16:15:17+00:00"
+            "time": "2017-11-18T20:03:35+00:00"
         },
         {
             "name": "skeeks/cms-rbac",
