@@ -32,6 +32,9 @@ cd demo.ru
 
 #Edit the file to access the database, it is located at common/config/db.php
 
+#Update configs
+COMPOSER_HOME=.composer php composer.phar self-update && COMPOSER_HOME=.composer php composer.phar du
+
 #Installation of ready-dump
 php yii dbDumper/mysql/restore
 ```
