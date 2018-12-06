@@ -35,8 +35,9 @@ cd demo.ru
 #Update configs
 COMPOSER_HOME=.composer php composer.phar self-update && COMPOSER_HOME=.composer php composer.phar du
 
+
 #Installation of ready-dump
-php yii dbDumper/mysql/restore
+php yii migrate -t=migration_install -p=backup/migrations
 ```
 
 

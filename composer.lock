@@ -1,30 +1,30 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "534bdce0fbcdeb6f3ba482fa813803f1",
+    "content-hash": "a3d7377fb5fa3d0cdc36c9935be6edb2",
     "packages": [
         {
             "name": "2amigos/yii2-file-upload-widget",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/2amigos/yii2-file-upload-widget.git",
-                "reference": "2fd078f589d4acdd2cbfb70eea88d526480b0102"
+                "reference": "2da8054d5eb598820b9e070fcfeaa5b2b2c0cd46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/2amigos/yii2-file-upload-widget/zipball/2fd078f589d4acdd2cbfb70eea88d526480b0102",
-                "reference": "2fd078f589d4acdd2cbfb70eea88d526480b0102",
+                "url": "https://api.github.com/repos/2amigos/yii2-file-upload-widget/zipball/2da8054d5eb598820b9e070fcfeaa5b2b2c0cd46",
+                "reference": "2da8054d5eb598820b9e070fcfeaa5b2b2c0cd46",
                 "shasum": ""
             },
             "require": {
-                "2amigos/yii2-gallery-widget": "~1.0",
-                "bower-asset/blueimp-file-upload": "~9.9",
-                "yiisoft/yii2": "~2.0.0",
-                "yiisoft/yii2-bootstrap": "~2.0.0"
+                "2amigos/yii2-gallery-widget": "^1.0",
+                "bower-asset/blueimp-file-upload": "^9.9",
+                "yiisoft/yii2": "^2.0.0",
+                "yiisoft/yii2-bootstrap": "^2.0.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
@@ -62,7 +62,7 @@
                 "yii 2",
                 "yii2"
             ],
-            "time": "2017-10-17T11:18:48+00:00"
+            "time": "2018-09-06T19:15:49+00:00"
         },
         {
             "name": "2amigos/yii2-gallery-widget",
@@ -130,7 +130,7 @@
             "version": "v3.14.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/blueimp/JavaScript-Canvas-to-Blob.git",
+                "url": "git@github.com:blueimp/JavaScript-Canvas-to-Blob.git",
                 "reference": "9f3deb2e710d39c72a988559609d9dc9a319de0b"
             },
             "dist": {
@@ -143,16 +143,16 @@
         },
         {
             "name": "bower-asset/blueimp-file-upload",
-            "version": "v9.19.1",
+            "version": "v9.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blueimp/jQuery-File-Upload.git",
-                "reference": "fbf442f1a90fdab69f1159951a2308fac0164993"
+                "reference": "ee54fc3f57418edc6c86532cfe124a9e2c70deed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/fbf442f1a90fdab69f1159951a2308fac0164993",
-                "reference": "fbf442f1a90fdab69f1159951a2308fac0164993",
+                "url": "https://api.github.com/repos/blueimp/jQuery-File-Upload/zipball/ee54fc3f57418edc6c86532cfe124a9e2c70deed",
+                "reference": "ee54fc3f57418edc6c86532cfe124a9e2c70deed",
                 "shasum": null
             },
             "require": {
@@ -171,7 +171,7 @@
             "version": "v2.17.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/blueimp/Gallery.git",
+                "url": "git@github.com:blueimp/Gallery.git",
                 "reference": "8336bb5934cb623608808601129db3fbf9201a09"
             },
             "dist": {
@@ -184,16 +184,16 @@
         },
         {
             "name": "bower-asset/blueimp-load-image",
-            "version": "v2.17.1",
+            "version": "v2.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blueimp/JavaScript-Load-Image.git",
-                "reference": "8def72724a432c74536471da3cbac11596231ede"
+                "reference": "e19f53104dfb1ec19be33455e45bca959561067b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blueimp/JavaScript-Load-Image/zipball/8def72724a432c74536471da3cbac11596231ede",
-                "reference": "8def72724a432c74536471da3cbac11596231ede",
+                "url": "https://api.github.com/repos/blueimp/JavaScript-Load-Image/zipball/e19f53104dfb1ec19be33455e45bca959561067b",
+                "reference": "e19f53104dfb1ec19be33455e45bca959561067b",
                 "shasum": null
             },
             "type": "bower-asset"
@@ -203,7 +203,7 @@
             "version": "v3.11.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/blueimp/JavaScript-Templates.git",
+                "url": "git@github.com:blueimp/JavaScript-Templates.git",
                 "reference": "da7647cb93fff2030e73a701db22c66de76a9919"
             },
             "dist": {
@@ -257,32 +257,32 @@
         },
         {
             "name": "bower-asset/codemirror",
-            "version": "5.31.0",
+            "version": "5.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/codemirror.git",
-                "reference": "ba5ccbcf92e33c8d738b3f5ec5e587ff1da838fe"
+                "reference": "a350d03f15df2892e41b094faa85a08459942845"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/codemirror/zipball/ba5ccbcf92e33c8d738b3f5ec5e587ff1da838fe",
-                "reference": "ba5ccbcf92e33c8d738b3f5ec5e587ff1da838fe",
+                "url": "https://api.github.com/repos/components/codemirror/zipball/a350d03f15df2892e41b094faa85a08459942845",
+                "reference": "a350d03f15df2892e41b094faa85a08459942845",
                 "shasum": null
             },
             "type": "bower-asset"
         },
         {
             "name": "bower-asset/fancybox",
-            "version": "v3.2.5",
+            "version": "v3.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fancyapps/fancybox.git",
-                "reference": "e68489e6f29334f85b6b98d995469f6be5a13b19"
+                "reference": "920b3e4dd54468ff9a0e4e40f35c533f21b3e1d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fancyapps/fancybox/zipball/e68489e6f29334f85b6b98d995469f6be5a13b19",
-                "reference": "e68489e6f29334f85b6b98d995469f6be5a13b19",
+                "url": "https://api.github.com/repos/fancyapps/fancybox/zipball/920b3e4dd54468ff9a0e4e40f35c533f21b3e1d1",
+                "reference": "920b3e4dd54468ff9a0e4e40f35c533f21b3e1d1",
                 "shasum": null
             },
             "require": {
@@ -295,16 +295,16 @@
         },
         {
             "name": "bower-asset/inputmask",
-            "version": "3.3.10",
+            "version": "3.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/Inputmask.git",
-                "reference": "14873e5775964275d13621cbe2b52e4448af3707"
+                "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/14873e5775964275d13621cbe2b52e4448af3707",
-                "reference": "14873e5775964275d13621cbe2b52e4448af3707",
+                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/5e670ad62f50c738388d4dcec78d2888505ad77b",
+                "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b",
                 "shasum": null
             },
             "require": {
@@ -358,7 +358,7 @@
             "version": "v1.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bestiejs/punycode.js.git",
+                "url": "git@github.com:bestiejs/punycode.js.git",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "dist": {
@@ -371,16 +371,16 @@
         },
         {
             "name": "bower-asset/underscore",
-            "version": "1.8.3",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jashkenas/underscore.git",
-                "reference": "e4743ab712b8ab42ad4ccb48b155034d02394e4d"
+                "reference": "ae037f7c41323807ae6f1533c45512e6d31a1574"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jashkenas/underscore/zipball/e4743ab712b8ab42ad4ccb48b155034d02394e4d",
-                "reference": "e4743ab712b8ab42ad4ccb48b155034d02394e4d",
+                "url": "https://api.github.com/repos/jashkenas/underscore/zipball/ae037f7c41323807ae6f1533c45512e6d31a1574",
+                "reference": "ae037f7c41323807ae6f1533c45512e6d31a1574",
                 "shasum": null
             },
             "type": "bower-asset"
@@ -390,7 +390,7 @@
             "version": "2.0.7.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/jquery-pjax.git",
+                "url": "git@github.com:yiisoft/jquery-pjax.git",
                 "reference": "aef7b953107264f00234902a3880eb50dafc48be"
             },
             "dist": {
@@ -469,16 +469,16 @@
         },
         {
             "name": "cocur/slugify",
-            "version": "v3.0.1",
+            "version": "v3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cocur/slugify.git",
-                "reference": "1fdf2b1219a199301db3d7c60c16d895bba6ccde"
+                "reference": "b2ccf7b735f4f3df3979aef2e1ebf8e19ca772f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cocur/slugify/zipball/1fdf2b1219a199301db3d7c60c16d895bba6ccde",
-                "reference": "1fdf2b1219a199301db3d7c60c16d895bba6ccde",
+                "url": "https://api.github.com/repos/cocur/slugify/zipball/b2ccf7b735f4f3df3979aef2e1ebf8e19ca772f7",
+                "reference": "b2ccf7b735f4f3df3979aef2e1ebf8e19ca772f7",
                 "shasum": ""
             },
             "require": {
@@ -530,7 +530,7 @@
                 "slug",
                 "slugify"
             ],
-            "time": "2017-09-24T10:29:04+00:00"
+            "time": "2018-01-22T09:00:48+00:00"
         },
         {
             "name": "container-interop/container-interop",
@@ -619,16 +619,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.3",
+            "version": "2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "1bec00a10039b823cc94eef4eddd47dcd3b2ca04"
+                "reference": "709f21f92707308cdf8f9bcfa1af4cb26586521e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/1bec00a10039b823cc94eef4eddd47dcd3b2ca04",
-                "reference": "1bec00a10039b823cc94eef4eddd47dcd3b2ca04",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/709f21f92707308cdf8f9bcfa1af4cb26586521e",
+                "reference": "709f21f92707308cdf8f9bcfa1af4cb26586521e",
                 "shasum": ""
             },
             "require": {
@@ -637,7 +637,7 @@
             },
             "require-dev": {
                 "dominicsayers/isemail": "dev-master",
-                "phpunit/phpunit": "^4.8.35",
+                "phpunit/phpunit": "^4.8.35||^5.7||^6.0",
                 "satooshi/php-coveralls": "^1.0.1"
             },
             "suggest": {
@@ -672,20 +672,20 @@
                 "validation",
                 "validator"
             ],
-            "time": "2017-11-15T23:40:40+00:00"
+            "time": "2018-12-04T22:38:24+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.9.3",
+            "version": "v4.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "95e1bae3182efc0f3422896a3236e991049dac69"
+                "reference": "d85d39da4576a6934b72480be6978fb10c860021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/95e1bae3182efc0f3422896a3236e991049dac69",
-                "reference": "95e1bae3182efc0f3422896a3236e991049dac69",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d85d39da4576a6934b72480be6978fb10c860021",
+                "reference": "d85d39da4576a6934b72480be6978fb10c860021",
                 "shasum": ""
             },
             "require": {
@@ -719,20 +719,20 @@
             "keywords": [
                 "html"
             ],
-            "time": "2017-06-03T02:28:16+00:00"
+            "time": "2018-02-23T01:58:20+00:00"
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.8.6",
+            "version": "8.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "95f5cc6d1f074db32abed92a13a0b7d013d03e47"
+                "reference": "919d24a13ff772b6af07d0f3ffefe8963cfb635c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/95f5cc6d1f074db32abed92a13a0b7d013d03e47",
-                "reference": "95f5cc6d1f074db32abed92a13a0b7d013d03e47",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/919d24a13ff772b6af07d0f3ffefe8963cfb635c",
+                "reference": "919d24a13ff772b6af07d0f3ffefe8963cfb635c",
                 "shasum": ""
             },
             "require": {
@@ -787,20 +787,20 @@
                 "phonenumber",
                 "validation"
             ],
-            "time": "2017-11-15T10:32:37+00:00"
+            "time": "2018-02-07T11:27:18+00:00"
         },
         {
             "name": "giggsey/locale",
-            "version": "1.4",
+            "version": "1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/Locale.git",
-                "reference": "e351a72ad6af6b41b690efdeffe1138fe5cc8b9c"
+                "reference": "da6845720b5d104d319d7e84576f54e44dd9e4f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/Locale/zipball/e351a72ad6af6b41b690efdeffe1138fe5cc8b9c",
-                "reference": "e351a72ad6af6b41b690efdeffe1138fe5cc8b9c",
+                "url": "https://api.github.com/repos/giggsey/Locale/zipball/da6845720b5d104d319d7e84576f54e44dd9e4f5",
+                "reference": "da6845720b5d104d319d7e84576f54e44dd9e4f5",
                 "shasum": ""
             },
             "require": {
@@ -813,10 +813,10 @@
                 "phing/phing": "~2.7",
                 "phpunit/phpunit": "^4.8|^5.0",
                 "satooshi/php-coveralls": "^1.0",
-                "symfony/console": "^2.8|^3.0",
-                "symfony/filesystem": "^2.8|^3.0",
-                "symfony/finder": "^2.8|^3.0",
-                "symfony/process": "^2.8|^3.0"
+                "symfony/console": "^2.8|^3.0|^4.0",
+                "symfony/filesystem": "^2.8|^3.0|^4.0",
+                "symfony/finder": "^2.8|^3.0|^4.0",
+                "symfony/process": "^2.8|^3.0|^4.0"
             },
             "type": "library",
             "autoload": {
@@ -836,7 +836,7 @@
                 }
             ],
             "description": "Locale functions required by libphonenumber-for-php",
-            "time": "2017-11-01T21:34:27+00:00"
+            "time": "2018-10-18T07:17:52+00:00"
         },
         {
             "name": "hiqdev/composer-config-plugin",
@@ -910,16 +910,16 @@
         },
         {
             "name": "ifsnop/mysqldump-php",
-            "version": "v2.3.1",
+            "version": "v2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ifsnop/mysqldump-php.git",
-                "reference": "1806317c2ce897cb38fbae5283f17d1451308244"
+                "reference": "8d063449981e3f7bd28a3a083842e21a24d1f4af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/1806317c2ce897cb38fbae5283f17d1451308244",
-                "reference": "1806317c2ce897cb38fbae5283f17d1451308244",
+                "url": "https://api.github.com/repos/ifsnop/mysqldump-php/zipball/8d063449981e3f7bd28a3a083842e21a24d1f4af",
+                "reference": "8d063449981e3f7bd28a3a083842e21a24d1f4af",
                 "shasum": ""
             },
             "require": {
@@ -958,7 +958,7 @@
                 "pdo",
                 "sqlite"
             ],
-            "time": "2017-05-07T22:27:29+00:00"
+            "time": "2018-06-30T19:40:05+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -1072,16 +1072,16 @@
         },
         {
             "name": "kartik-v/php-date-formatter",
-            "version": "v1.3.4",
+            "version": "v1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/php-date-formatter.git",
-                "reference": "075cabb950ad2e2b317daf424700bf0afdc1f604"
+                "reference": "d842e1c4e6a8d6108017b726321c305bb5ae4fb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/php-date-formatter/zipball/075cabb950ad2e2b317daf424700bf0afdc1f604",
-                "reference": "075cabb950ad2e2b317daf424700bf0afdc1f604",
+                "url": "https://api.github.com/repos/kartik-v/php-date-formatter/zipball/d842e1c4e6a8d6108017b726321c305bb5ae4fb5",
+                "reference": "d842e1c4e6a8d6108017b726321c305bb5ae4fb5",
                 "shasum": ""
             },
             "type": "library",
@@ -1117,25 +1117,25 @@
                 "php-date-formatter.js",
                 "time"
             ],
-            "time": "2017-01-08T09:13:05+00:00"
+            "time": "2018-07-13T06:56:46+00:00"
         },
         {
             "name": "kartik-v/yii2-datecontrol",
-            "version": "v1.9.6",
+            "version": "v1.9.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-datecontrol.git",
-                "reference": "0f5d793f788c6fef9c8ba4a6242530858f2320f1"
+                "reference": "e095702e8bcd325a09f6a6e6b21f0b529b6965b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-datecontrol/zipball/0f5d793f788c6fef9c8ba4a6242530858f2320f1",
-                "reference": "0f5d793f788c6fef9c8ba4a6242530858f2320f1",
+                "url": "https://api.github.com/repos/kartik-v/yii2-datecontrol/zipball/e095702e8bcd325a09f6a6e6b21f0b529b6965b9",
+                "reference": "e095702e8bcd325a09f6a6e6b21f0b529b6965b9",
                 "shasum": ""
             },
             "require": {
                 "kartik-v/php-date-formatter": ">1.3",
-                "kartik-v/yii2-krajee-base": "~1.7"
+                "kartik-v/yii2-krajee-base": ">=1.9"
             },
             "type": "yii2-extension",
             "extra": {
@@ -1145,7 +1145,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "kartik\\datecontrol\\": ""
+                    "kartik\\datecontrol\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1169,34 +1169,35 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-01-14T11:34:27+00:00"
+            "time": "2018-09-23T07:29:23+00:00"
         },
         {
             "name": "kartik-v/yii2-krajee-base",
-            "version": "v1.8.9",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-krajee-base.git",
-                "reference": "0cafe6376780cedcd00f52c9d82b172d5851f6b0"
+                "reference": "ec7fc2c5ed76ee29c939ed6fe33bab76eb25499c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/0cafe6376780cedcd00f52c9d82b172d5851f6b0",
-                "reference": "0cafe6376780cedcd00f52c9d82b172d5851f6b0",
+                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/ec7fc2c5ed76ee29c939ed6fe33bab76eb25499c",
+                "reference": "ec7fc2c5ed76ee29c939ed6fe33bab76eb25499c",
                 "shasum": ""
             },
-            "require": {
-                "yiisoft/yii2-bootstrap": "@dev"
+            "suggest": {
+                "yiisoft/yii2-bootstrap": "for Krajee extensions to work with Bootstrap 3.x version",
+                "yiisoft/yii2-bootstrap4": "for Krajee extensions to work with Bootstrap 4.x version"
             },
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "kartik\\base\\": ""
+                    "kartik\\base\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1220,24 +1221,24 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-09-29T06:18:14+00:00"
+            "time": "2018-12-04T03:40:27+00:00"
         },
         {
             "name": "kartik-v/yii2-widget-colorinput",
-            "version": "v1.0.3",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-colorinput.git",
-                "reference": "3f6e847ef72cf6e27e4d3b4870b00b8f80d51752"
+                "reference": "65f2c4b603ef0c26c3c85b0246a6a59f59045a43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-colorinput/zipball/3f6e847ef72cf6e27e4d3b4870b00b8f80d51752",
-                "reference": "3f6e847ef72cf6e27e4d3b4870b00b8f80d51752",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-colorinput/zipball/65f2c4b603ef0c26c3c85b0246a6a59f59045a43",
+                "reference": "65f2c4b603ef0c26c3c85b0246a6a59f59045a43",
                 "shasum": ""
             },
             "require": {
-                "kartik-v/yii2-krajee-base": "*"
+                "kartik-v/yii2-krajee-base": ">=1.9"
             },
             "type": "yii2-extension",
             "extra": {
@@ -1247,12 +1248,12 @@
             },
             "autoload": {
                 "psr-4": {
-                    "kartik\\color\\": ""
+                    "kartik\\color\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD 3-Clause"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -1274,24 +1275,24 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2016-01-14T11:15:49+00:00"
+            "time": "2018-09-12T03:12:07+00:00"
         },
         {
             "name": "kartik-v/yii2-widget-datepicker",
-            "version": "v1.4.3",
+            "version": "v1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-datepicker.git",
-                "reference": "b793655b63e77e5598ed232cf887cc640c30420f"
+                "reference": "aadeb08fe0199a62bb26940cdccafc2c169edc69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datepicker/zipball/b793655b63e77e5598ed232cf887cc640c30420f",
-                "reference": "b793655b63e77e5598ed232cf887cc640c30420f",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datepicker/zipball/aadeb08fe0199a62bb26940cdccafc2c169edc69",
+                "reference": "aadeb08fe0199a62bb26940cdccafc2c169edc69",
                 "shasum": ""
             },
             "require": {
-                "kartik-v/yii2-krajee-base": "~1.7"
+                "kartik-v/yii2-krajee-base": ">=2.0.0"
             },
             "type": "yii2-extension",
             "extra": {
@@ -1301,7 +1302,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "kartik\\date\\": ""
+                    "kartik\\date\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1328,29 +1329,34 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-09-04T03:28:47+00:00"
+            "time": "2018-10-09T11:34:49+00:00"
         },
         {
             "name": "kartik-v/yii2-widget-datetimepicker",
-            "version": "v1.4.4",
+            "version": "v1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-datetimepicker.git",
-                "reference": "e843520aca008dc0807aa7ea99bfab2cc03c9a3c"
+                "reference": "6f89a4ed78fc95a0679c5bb99dd353e3dc86c7f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datetimepicker/zipball/e843520aca008dc0807aa7ea99bfab2cc03c9a3c",
-                "reference": "e843520aca008dc0807aa7ea99bfab2cc03c9a3c",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datetimepicker/zipball/6f89a4ed78fc95a0679c5bb99dd353e3dc86c7f8",
+                "reference": "6f89a4ed78fc95a0679c5bb99dd353e3dc86c7f8",
                 "shasum": ""
             },
             "require": {
-                "kartik-v/yii2-krajee-base": "*"
+                "kartik-v/yii2-krajee-base": ">=2.0.0"
             },
             "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
-                    "kartik\\datetime\\": ""
+                    "kartik\\datetime\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1377,7 +1383,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-06-08T05:53:28+00:00"
+            "time": "2018-10-09T11:39:13+00:00"
         },
         {
             "name": "mihaildev/yii2-elfinder",
@@ -1431,16 +1437,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.23.0",
+            "version": "1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
+                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
                 "shasum": ""
             },
             "require": {
@@ -1505,7 +1511,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19T01:22:40+00:00"
+            "time": "2018-11-05T09:00:11+00:00"
         },
         {
             "name": "mrclay/jsmin-php",
@@ -1675,16 +1681,16 @@
         },
         {
             "name": "natxet/CssMin",
-            "version": "v3.0.5",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/natxet/CssMin.git",
-                "reference": "9580f5448f05a82c96cfe6c7063a77807d8ec56d"
+                "reference": "d5d9f4c3e5cedb1ae96a95a21731f8790e38f1dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/natxet/CssMin/zipball/9580f5448f05a82c96cfe6c7063a77807d8ec56d",
-                "reference": "9580f5448f05a82c96cfe6c7063a77807d8ec56d",
+                "url": "https://api.github.com/repos/natxet/CssMin/zipball/d5d9f4c3e5cedb1ae96a95a21731f8790e38f1dd",
+                "reference": "d5d9f4c3e5cedb1ae96a95a21731f8790e38f1dd",
                 "shasum": ""
             },
             "require": {
@@ -1718,7 +1724,21 @@
                 "css",
                 "minify"
             ],
-            "time": "2017-10-04T16:54:00+00:00"
+            "time": "2018-01-09T11:15:01+00:00"
+        },
+        {
+            "name": "npm-asset/jquery-contextmenu",
+            "version": "2.7.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jquery-contextmenu/-/jquery-contextmenu-2.7.1.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "paulzi/yii2-adjacency-list",
@@ -1866,6 +1886,55 @@
             "time": "2016-10-13T22:19:19+00:00"
         },
         {
+            "name": "paulzi/yii2-nested-sets",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paulzi/yii2-nested-sets.git",
+                "reference": "59342c6bd7b4e2586437f41eab4882e62caea53f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paulzi/yii2-nested-sets/zipball/59342c6bd7b4e2586437f41eab4882e62caea53f",
+                "reference": "59342c6bd7b4e2586437f41eab4882e62caea53f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "paulzi\\nestedsets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Kochetov",
+                    "email": "creocoder@gmail.com"
+                },
+                {
+                    "name": "PaulZi",
+                    "email": "pavel.zimakoff@gmail.com"
+                }
+            ],
+            "description": "Nested Sets Behavior for Yii2",
+            "keywords": [
+                "nested sets",
+                "yii2"
+            ],
+            "time": "2018-07-21T12:27:55+00:00"
+        },
+        {
             "name": "paulzi/yii2-sortable",
             "version": "v1.0.2",
             "source": {
@@ -1912,16 +1981,16 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a"
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/4d45fb62d96418396ec58ba76e6f065bca16e10a",
-                "reference": "4d45fb62d96418396ec58ba76e6f065bca16e10a",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
+                "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
                 "shasum": ""
             },
             "require": {
@@ -1958,7 +2027,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2017-07-23T07:32:15+00:00"
+            "time": "2018-01-21T07:42:36+00:00"
         },
         {
             "name": "psr/container",
@@ -2011,16 +2080,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -2054,20 +2123,20 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "skeeks/cms",
-            "version": "5.0.0-alpha5",
+            "version": "5.2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms.git",
-                "reference": "8d36907758aee41199b890aaf9f09225cad919ce"
+                "reference": "6069bbe137be6ecee8c72e3831bc311b7eac9c03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/8d36907758aee41199b890aaf9f09225cad919ce",
-                "reference": "8d36907758aee41199b890aaf9f09225cad919ce",
+                "url": "https://api.github.com/repos/skeeks-cms/cms/zipball/6069bbe137be6ecee8c72e3831bc311b7eac9c03",
+                "reference": "6069bbe137be6ecee8c72e3831bc311b7eac9c03",
                 "shasum": ""
             },
             "require": {
@@ -2082,27 +2151,33 @@
                 "paulzi/yii2-adjacency-list": "~2.0.4",
                 "paulzi/yii2-auto-tree": "~1.0.4",
                 "paulzi/yii2-materialized-path": "~2.0.8",
+                "paulzi/yii2-nested-sets": "~1.0.6",
                 "php": ">=5.6.0",
-                "skeeks/cms-admin": "~2.0.2 || dev-master",
-                "skeeks/cms-agent": "~2.0.0 || dev-master",
-                "skeeks/cms-backend": "~1.1.1 || dev-master",
-                "skeeks/cms-backend-admin": "~1.1.0 || dev-master",
-                "skeeks/cms-composer": "~1.0.0 || dev-master",
-                "skeeks/cms-marketplace": "~2.0.0 || dev-master",
-                "skeeks/cms-rbac": "~2.1.0 || dev-master",
-                "skeeks/cms-toolbar": "~1.0.0 || dev-master",
-                "skeeks/yii2-ajax-file-upload": "~1.0.0",
-                "skeeks/yii2-ckeditor": "~1.1.0",
-                "skeeks/yii2-imagine": "~2.0.1",
-                "skeeks/yii2-slug-behavior": "~1.0.0",
-                "skeeks/yii2-sx": "~1.3.0",
-                "skeeks/yii2-widget-chosen": "~1.2.0",
-                "skeeks/yii2-widget-codemirror": "~1.0.3",
-                "skeeks/yii2-widget-highcharts": "~1.0.3",
-                "skeeks/yii2-widget-simpleajaxuploader": "~1.1.0",
-                "skeeks/yii2-ya-slug": "~1.0.0",
-                "yiisoft/yii2": "2.0.13",
-                "yiisoft/yii2-bootstrap": "2.0.7",
+                "skeeks/cms-admin": "^2.0.5 || dev-master@dev",
+                "skeeks/cms-agent": "^2.0.0 || dev-master@dev",
+                "skeeks/cms-backend": "^1.1.7 || dev-master@dev",
+                "skeeks/cms-backend-admin": "^1.1.3 || dev-master@dev",
+                "skeeks/cms-composer": "^1.0.0 || dev-master@dev",
+                "skeeks/cms-marketplace": "^2.0.1 || dev-master@dev",
+                "skeeks/cms-query-filters": "^0.1.0 || ^1.0.0 || dev-master@dev",
+                "skeeks/cms-rbac": "^2.2.0 || dev-master@dev",
+                "skeeks/cms-toolbar": "^1.0.0 || dev-master@dev",
+                "skeeks/cms-user-personal-area": "^0.1.0 || ^1.0.0 || dev-master@dev",
+                "skeeks/yii2-ajax-file-upload": "^1.0.0",
+                "skeeks/yii2-ckeditor": "^1.1.0",
+                "skeeks/yii2-config": "^0.1.0 || ^1.0.0 || dev-master@dev",
+                "skeeks/yii2-form": "^0.1.0 || ^1.0.0 || dev-master@dev",
+                "skeeks/yii2-imagine": "^2.0.1",
+                "skeeks/yii2-jquery-contextmenu": "^0.1.0 || ^1.0.0 || dev-master@dev",
+                "skeeks/yii2-slug-behavior": "^1.0.0",
+                "skeeks/yii2-sx": "^1.4.0 || dev-master@dev",
+                "skeeks/yii2-widget-chosen": "^1.2.0",
+                "skeeks/yii2-widget-codemirror": "^1.0.3",
+                "skeeks/yii2-widget-highcharts": "^1.0.3",
+                "skeeks/yii2-widget-simpleajaxuploader": "^1.1.0",
+                "skeeks/yii2-ya-slug": "^1.0.0",
+                "yiisoft/yii2": "2.0.13.1 || 2.0.15.1 || dev-master@dev",
+                "yiisoft/yii2-bootstrap": "~2.0.7 || dev-master@dev || 2.1.x-dev",
                 "yiisoft/yii2-jui": "2.0.6"
             },
             "type": "yii2-extension",
@@ -2115,6 +2190,14 @@
                     "console": [
                         "src/config/common.php",
                         "src/config/console.php"
+                    ],
+                    "skeeks-cms-web": [
+                        "src/config/common.php",
+                        "src/config/web.php"
+                    ],
+                    "skeeks-cms-console": [
+                        "src/config/common.php",
+                        "src/config/console.php"
                     ]
                 }
             },
@@ -2125,7 +2208,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2150,24 +2233,24 @@
                 "skeeks cms",
                 "yii2"
             ],
-            "time": "2017-11-18T20:19:41+00:00"
+            "time": "2018-12-05T10:00:06+00:00"
         },
         {
             "name": "skeeks/cms-admin",
-            "version": "2.0.4",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-admin.git",
-                "reference": "a450aa83f7efdb0f992cf6fbebd250172d68359d"
+                "reference": "4a64ec3d41c988613105d346e71cf11859afe721"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-admin/zipball/a450aa83f7efdb0f992cf6fbebd250172d68359d",
-                "reference": "a450aa83f7efdb0f992cf6fbebd250172d68359d",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-admin/zipball/4a64ec3d41c988613105d346e71cf11859afe721",
+                "reference": "4a64ec3d41c988613105d346e71cf11859afe721",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "~5.0.0 || dev-master"
+                "skeeks/cms": "^5.1.0 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2184,7 +2267,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2196,25 +2279,26 @@
             "homepage": "https://cms.skeeks.com/",
             "keywords": [
                 "admin",
-                "component",
+                "cms",
                 "framework",
                 "skeeks",
-                "yii"
+                "yii",
+                "yii2"
             ],
-            "time": "2017-11-18T20:20:22+00:00"
+            "time": "2018-11-03T09:02:16+00:00"
         },
         {
             "name": "skeeks/cms-agent",
-            "version": "2.0.0-alpha",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-agent.git",
-                "reference": "23da6efb1510e0a2991bd888fa674840892dd5ae"
+                "reference": "672ebd539fe82dbcfb6c8f6b81c75fecc65a7dc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-agent/zipball/23da6efb1510e0a2991bd888fa674840892dd5ae",
-                "reference": "23da6efb1510e0a2991bd888fa674840892dd5ae",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-agent/zipball/672ebd539fe82dbcfb6c8f6b81c75fecc65a7dc5",
+                "reference": "672ebd539fe82dbcfb6c8f6b81c75fecc65a7dc5",
                 "shasum": ""
             },
             "require": {
@@ -2234,7 +2318,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2251,24 +2335,24 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-15T10:44:21+00:00"
+            "time": "2018-07-23T10:15:34+00:00"
         },
         {
             "name": "skeeks/cms-assets-auto-compress",
-            "version": "1.5.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-assets-auto-compress.git",
-                "reference": "47b8713852965e2a62217ad300e49505196c1587"
+                "reference": "bcb301f18c26b4712635b39def294a9bf7ea8c4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-assets-auto-compress/zipball/47b8713852965e2a62217ad300e49505196c1587",
-                "reference": "47b8713852965e2a62217ad300e49505196c1587",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-assets-auto-compress/zipball/bcb301f18c26b4712635b39def294a9bf7ea8c4c",
+                "reference": "bcb301f18c26b4712635b39def294a9bf7ea8c4c",
                 "shasum": ""
             },
             "require": {
-                "skeeks/yii2-assets-auto-compress": "^1"
+                "skeeks/yii2-assets-auto-compress": "~1.4.0 || dev-master@dev"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2283,7 +2367,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2304,24 +2388,24 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-06T13:16:50+00:00"
+            "time": "2018-11-03T10:59:13+00:00"
         },
         {
             "name": "skeeks/cms-backend",
-            "version": "1.1.3",
+            "version": "1.2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-backend.git",
-                "reference": "7bc66e3e9eac4cd69238ee5e10cd6ee9dd964d24"
+                "reference": "ea3b9b6a44b7cac5502452432a8895f1c49b910e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-backend/zipball/7bc66e3e9eac4cd69238ee5e10cd6ee9dd964d24",
-                "reference": "7bc66e3e9eac4cd69238ee5e10cd6ee9dd964d24",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-backend/zipball/ea3b9b6a44b7cac5502452432a8895f1c49b910e",
+                "reference": "ea3b9b6a44b7cac5502452432a8895f1c49b910e",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "~5.0 || dev-master"
+                "skeeks/cms": "^5.0.4 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2337,7 +2421,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2353,24 +2437,24 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-10T20:06:00+00:00"
+            "time": "2018-12-05T09:57:31+00:00"
         },
         {
             "name": "skeeks/cms-backend-admin",
-            "version": "1.1.0.1",
+            "version": "1.1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-backend-admin.git",
-                "reference": "aa5ed486015a90bd6442a3d3942be40e886c3c69"
+                "reference": "07081e9e39aa0b385ef8c497b90b2bb4766aead2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-backend-admin/zipball/aa5ed486015a90bd6442a3d3942be40e886c3c69",
-                "reference": "aa5ed486015a90bd6442a3d3942be40e886c3c69",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-backend-admin/zipball/07081e9e39aa0b385ef8c497b90b2bb4766aead2",
+                "reference": "07081e9e39aa0b385ef8c497b90b2bb4766aead2",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "*"
+                "skeeks/cms": "^5.0.4 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2393,7 +2477,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2410,33 +2494,33 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-07T09:04:29+00:00"
+            "time": "2018-11-17T04:49:25+00:00"
         },
         {
             "name": "skeeks/cms-basic",
-            "version": "1.0.0-beta2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-basic.git",
-                "reference": "3320d4162d0fbe1455ba843bc028bacd26a188f6"
+                "reference": "8f63797ffd95b8d0c167bd040ceb28ec6459f5d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-basic/zipball/3320d4162d0fbe1455ba843bc028bacd26a188f6",
-                "reference": "3320d4162d0fbe1455ba843bc028bacd26a188f6",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-basic/zipball/8f63797ffd95b8d0c167bd040ceb28ec6459f5d8",
+                "reference": "8f63797ffd95b8d0c167bd040ceb28ec6459f5d8",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "~5.0.0 || dev-master",
-                "skeeks/cms-assets-auto-compress": "~1.5.0 || dev-master",
-                "skeeks/cms-db-dumper": "~1.3.0 || dev-master",
-                "skeeks/cms-log-db-target": "~1.4.0 || dev-master",
-                "skeeks/cms-mailer": "~2.1.0 || dev-master",
-                "skeeks/cms-module-form2": "~2.5.0 || dev-master",
-                "skeeks/cms-related-handler-extra": "~1.1.0 || dev-master",
-                "skeeks/cms-rp-view-widget": "~1.0.0 || dev-master",
-                "skeeks/cms-search": "~2.1.0 || dev-master",
-                "skeeks/cms-seo": "~2.1.0 || dev-master"
+                "skeeks/cms": "^5.1.0 || dev-master",
+                "skeeks/cms-assets-auto-compress": "^1.6.0 || dev-master",
+                "skeeks/cms-db-dumper": "^1.3.0 || dev-master",
+                "skeeks/cms-log-db-target": "^1.4.0 || dev-master",
+                "skeeks/cms-mailer": "^2.1.0 || dev-master",
+                "skeeks/cms-module-form2": "^2.5.0 || dev-master",
+                "skeeks/cms-related-handler-extra": "^1.1.0 || dev-master",
+                "skeeks/cms-rp-view-widget": "^1.0.0 || dev-master",
+                "skeeks/cms-search": "^2.1.0 || dev-master",
+                "skeeks/cms-seo": "^2.1.6 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2458,7 +2542,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2474,20 +2558,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-15T10:46:54+00:00"
+            "time": "2018-05-21T23:40:25+00:00"
         },
         {
             "name": "skeeks/cms-composer",
-            "version": "1.0.0-beta",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-composer.git",
-                "reference": "fe66eaa2e56569e81c588b686c381cd1e2647bba"
+                "reference": "d7a6775f37b1e584139ddef809c3e3fc1e528886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-composer/zipball/fe66eaa2e56569e81c588b686c381cd1e2647bba",
-                "reference": "fe66eaa2e56569e81c588b686c381cd1e2647bba",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-composer/zipball/d7a6775f37b1e584139ddef809c3e3fc1e528886",
+                "reference": "d7a6775f37b1e584139ddef809c3e3fc1e528886",
                 "shasum": ""
             },
             "require": {
@@ -2502,7 +2586,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2518,20 +2602,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-10T20:03:40+00:00"
+            "time": "2018-01-30T22:23:31+00:00"
         },
         {
             "name": "skeeks/cms-composer-update-plugin",
-            "version": "1.0.0-alpha3",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-composer-update-plugin.git",
-                "reference": "5a25c2e3a83d4c7ddfd863ce46f3a8007bf56c60"
+                "reference": "6368e6c12968cc9fc3ae763b2b3a6752c9494738"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-composer-update-plugin/zipball/5a25c2e3a83d4c7ddfd863ce46f3a8007bf56c60",
-                "reference": "5a25c2e3a83d4c7ddfd863ce46f3a8007bf56c60",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-composer-update-plugin/zipball/6368e6c12968cc9fc3ae763b2b3a6752c9494738",
+                "reference": "6368e6c12968cc9fc3ae763b2b3a6752c9494738",
                 "shasum": ""
             },
             "require": {
@@ -2548,7 +2632,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2564,30 +2648,29 @@
                 "config",
                 "plugin"
             ],
-            "time": "2017-11-15T20:20:09+00:00"
+            "time": "2018-05-21T16:31:07+00:00"
         },
         {
             "name": "skeeks/cms-db-dumper",
-            "version": "1.3.1",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-db-dumper.git",
-                "reference": "580765ccec3d586ff53f47abcf3393b230988af1"
+                "reference": "33027500b92f9d6e3d806ed1e5d79e81fb204f3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-db-dumper/zipball/580765ccec3d586ff53f47abcf3393b230988af1",
-                "reference": "580765ccec3d586ff53f47abcf3393b230988af1",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-db-dumper/zipball/33027500b92f9d6e3d806ed1e5d79e81fb204f3e",
+                "reference": "33027500b92f9d6e3d806ed1e5d79e81fb204f3e",
                 "shasum": ""
             },
             "require": {
-                "ifsnop/mysqldump-php": "*",
-                "skeeks/cms": "*"
+                "ifsnop/mysqldump-php": "^2.4.0",
+                "skeeks/cms": "^5.0.0 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
                 "config-plugin": {
-                    "common": "src/config/common.php",
                     "web": [
                         "src/config/common.php",
                         "src/config/web.php"
@@ -2605,7 +2688,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2614,7 +2697,7 @@
                 }
             ],
             "description": "Database dumper for SkeekS CMS",
-            "homepage": "http://cms.skeeks.com/",
+            "homepage": "https://cms.skeeks.com/",
             "keywords": [
                 "component",
                 "db",
@@ -2623,24 +2706,24 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-15T19:04:50+00:00"
+            "time": "2018-11-03T09:02:14+00:00"
         },
         {
             "name": "skeeks/cms-log-db-target",
-            "version": "1.4.3",
+            "version": "1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-log-db-target.git",
-                "reference": "b02df69640a902acb79e55b16b82c2968c123016"
+                "reference": "1356f92c36f4c4fba4440dc6f4267c2b021cdf12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-log-db-target/zipball/b02df69640a902acb79e55b16b82c2968c123016",
-                "reference": "b02df69640a902acb79e55b16b82c2968c123016",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-log-db-target/zipball/1356f92c36f4c4fba4440dc6f4267c2b021cdf12",
+                "reference": "1356f92c36f4c4fba4440dc6f4267c2b021cdf12",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "~5.0 || dev-master"
+                "skeeks/cms": "^5.0.0 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2662,7 +2745,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2683,41 +2766,41 @@
                 "target",
                 "yii2"
             ],
-            "time": "2017-11-18T20:20:58+00:00"
+            "time": "2018-05-30T12:59:33+00:00"
         },
         {
             "name": "skeeks/cms-mailer",
-            "version": "2.1.0",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-mailer.git",
-                "reference": "20c164b12ea078a75b797e950bfc7ef1339aedd7"
+                "reference": "729a35a176b96e2ec5f9724b17ce7727e3161926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-mailer/zipball/20c164b12ea078a75b797e950bfc7ef1339aedd7",
-                "reference": "20c164b12ea078a75b797e950bfc7ef1339aedd7",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-mailer/zipball/729a35a176b96e2ec5f9724b17ce7727e3161926",
+                "reference": "729a35a176b96e2ec5f9724b17ce7727e3161926",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "*",
-                "yiisoft/yii2-swiftmailer": "*"
+                "skeeks/cms": "^5.0.4 || dev-master",
+                "yiisoft/yii2-swiftmailer": "^2.1.1"
             },
             "type": "yii2-extension",
             "extra": {
                 "config-plugin": {
-                    "web": "config/main.php",
-                    "console": "config/main-console.php"
+                    "web": "src/config/main.php",
+                    "console": "src/config/main-console.php"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "skeeks\\cms\\mail\\": ""
+                    "skeeks\\cms\\mail\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2726,7 +2809,7 @@
                 }
             ],
             "description": "Mailer for SkeekS CMS",
-            "homepage": "http://cms.skeeks.com/",
+            "homepage": "https://cms.skeeks.com/",
             "keywords": [
                 "component",
                 "framework",
@@ -2734,26 +2817,26 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-07T09:54:14+00:00"
+            "time": "2018-11-03T09:04:27+00:00"
         },
         {
             "name": "skeeks/cms-marketplace",
-            "version": "2.0.0-alpha4",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-marketplace.git",
-                "reference": "d964618960e41f84635fdc44871f6b0380ca74df"
+                "reference": "e0902e5e4b702fe4f4e877cc298e40a8ca413c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-marketplace/zipball/d964618960e41f84635fdc44871f6b0380ca74df",
-                "reference": "d964618960e41f84635fdc44871f6b0380ca74df",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-marketplace/zipball/e0902e5e4b702fe4f4e877cc298e40a8ca413c4a",
+                "reference": "e0902e5e4b702fe4f4e877cc298e40a8ca413c4a",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "~5.0.0 || dev-master",
-                "skeeks/cms-composer-update-plugin": "~1.0.0 || dev-master",
-                "skeeks/yii2-curl": "*",
+                "skeeks/cms": "^5.0.4 || dev-master",
+                "skeeks/cms-composer-update-plugin": "^1.0.0 || dev-master",
+                "skeeks/yii2-curl": "^1.1.0",
                 "symfony/process": "~3.3.6"
             },
             "type": "yii2-extension",
@@ -2769,7 +2852,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2786,24 +2869,24 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-15T22:08:00+00:00"
+            "time": "2018-05-21T16:14:54+00:00"
         },
         {
             "name": "skeeks/cms-module-form2",
-            "version": "2.5.3",
+            "version": "2.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-module-form2.git",
-                "reference": "9ce21bd692a5fc21a78c3b79c9f6df88718eb9ac"
+                "reference": "2e73affd4b763b81482e47aa38b396520eae4748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-module-form2/zipball/9ce21bd692a5fc21a78c3b79c9f6df88718eb9ac",
-                "reference": "9ce21bd692a5fc21a78c3b79c9f6df88718eb9ac",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-module-form2/zipball/2e73affd4b763b81482e47aa38b396520eae4748",
+                "reference": "2e73affd4b763b81482e47aa38b396520eae4748",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "~5.0 || dev-master"
+                "skeeks/cms": "^5.2.1 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2818,7 +2901,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD 3-Clause"
             ],
             "authors": [
                 {
@@ -2836,35 +2919,86 @@
                 "skeeks",
                 "yii2"
             ],
-            "time": "2017-11-18T20:03:35+00:00"
+            "time": "2018-11-03T09:02:14+00:00"
         },
         {
-            "name": "skeeks/cms-rbac",
-            "version": "2.1.0",
+            "name": "skeeks/cms-query-filters",
+            "version": "0.1.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/skeeks-cms/cms-rbac.git",
-                "reference": "2ef9d468470891af377e0ebc57f2b529ec4f2052"
+                "url": "https://github.com/skeeks-cms/cms-query-filters.git",
+                "reference": "c6d33f8513e618532769d39f515d1e6f912e6664"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-rbac/zipball/2ef9d468470891af377e0ebc57f2b529ec4f2052",
-                "reference": "2ef9d468470891af377e0ebc57f2b529ec4f2052",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-query-filters/zipball/c6d33f8513e618532769d39f515d1e6f912e6664",
+                "reference": "c6d33f8513e618532769d39f515d1e6f912e6664",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "*"
+                "skeeks/cms": "^5.0.4 || dev-master"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\cms\\queryfilters\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                }
+            ],
+            "description": "Query filters widget for SkeekS CMS",
+            "homepage": "https://cms.skeeks.com/",
+            "keywords": [
+                "cms",
+                "component",
+                "framework",
+                "skeeks",
+                "yii",
+                "yii2"
+            ],
+            "time": "2018-11-04T09:18:26+00:00"
+        },
+        {
+            "name": "skeeks/cms-rbac",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-cms/cms-rbac.git",
+                "reference": "fa85ffec9636c6604d63d123af023aca04619c4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-rbac/zipball/fa85ffec9636c6604d63d123af023aca04619c4f",
+                "reference": "fa85ffec9636c6604d63d123af023aca04619c4f",
+                "shasum": ""
+            },
+            "require": {
+                "skeeks/cms": "~5.0 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
                 "config-plugin": {
-                    "web": "config/main.php",
-                    "console": "config/main-console.php"
+                    "web": [
+                        "src/config/common.php",
+                        "src/config/web.php"
+                    ],
+                    "console": [
+                        "src/config/common.php",
+                        "src/config/console.php"
+                    ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "skeeks\\cms\\rbac\\": ""
+                    "skeeks\\cms\\rbac\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2886,7 +3020,7 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-07T09:44:08+00:00"
+            "time": "2018-11-03T09:02:16+00:00"
         },
         {
             "name": "skeeks/cms-related-handler-extra",
@@ -2939,30 +3073,30 @@
         },
         {
             "name": "skeeks/cms-rp-view-widget",
-            "version": "1.0.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-rp-view-widget.git",
-                "reference": "7655935ec761c3c5e5eb4838366d93c7eb670ffd"
+                "reference": "463bae22f677f69753d3d742876388bcff2e85ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-rp-view-widget/zipball/7655935ec761c3c5e5eb4838366d93c7eb670ffd",
-                "reference": "7655935ec761c3c5e5eb4838366d93c7eb670ffd",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-rp-view-widget/zipball/463bae22f677f69753d3d742876388bcff2e85ad",
+                "reference": "463bae22f677f69753d3d742876388bcff2e85ad",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "*"
+                "skeeks/cms": "^5.0.4 || dev-master"
             },
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "skeeks\\cms\\rpViewWidget\\": ""
+                    "skeeks\\cms\\rpViewWidget\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -2980,20 +3114,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-08-31T19:39:16+00:00"
+            "time": "2018-07-10T08:20:12+00:00"
         },
         {
             "name": "skeeks/cms-search",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-search.git",
-                "reference": "ef1ab82f82330be1ec8d8dbd0d15ae8600aacc79"
+                "reference": "2fcd8c6343f46938c5cc5829bbb4c9a83593092d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-search/zipball/ef1ab82f82330be1ec8d8dbd0d15ae8600aacc79",
-                "reference": "ef1ab82f82330be1ec8d8dbd0d15ae8600aacc79",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-search/zipball/2fcd8c6343f46938c5cc5829bbb4c9a83593092d",
+                "reference": "2fcd8c6343f46938c5cc5829bbb4c9a83593092d",
                 "shasum": ""
             },
             "require": {
@@ -3036,40 +3170,40 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-15T18:57:55+00:00"
+            "time": "2017-11-18T12:36:39+00:00"
         },
         {
             "name": "skeeks/cms-seo",
-            "version": "2.1.0",
+            "version": "2.1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-seo.git",
-                "reference": "1950070921cfde9c0a2ce2599fc85022901c60ae"
+                "reference": "47fbee1426fe7d17fb27841599d1e039bb8bf26a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-seo/zipball/1950070921cfde9c0a2ce2599fc85022901c60ae",
-                "reference": "1950070921cfde9c0a2ce2599fc85022901c60ae",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-seo/zipball/47fbee1426fe7d17fb27841599d1e039bb8bf26a",
+                "reference": "47fbee1426fe7d17fb27841599d1e039bb8bf26a",
                 "shasum": ""
             },
             "require": {
-                "skeeks/cms": "*"
+                "skeeks/cms": "^5.0.4 || dev-master"
             },
             "type": "yii2-extension",
             "extra": {
                 "config-plugin": {
-                    "web": "config/main.php",
-                    "console": "config/main-console.php"
+                    "web": "src/config/web.php",
+                    "console": "src/config/console.php"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "skeeks\\cms\\seo\\": ""
+                    "skeeks\\cms\\seo\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -3078,7 +3212,7 @@
                 }
             ],
             "description": "Component seo for SkeekS CMS",
-            "homepage": "http://cms.skeeks.com/",
+            "homepage": "https://cms.skeeks.com/",
             "keywords": [
                 "component",
                 "framework",
@@ -3086,69 +3220,20 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-07T10:13:06+00:00"
-        },
-        {
-            "name": "skeeks/cms-ssh-console",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/skeeks-cms/cms-ssh-console.git",
-                "reference": "f9f5aa2550a9f5005f4bcb44f4c1cb0cfeac4329"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-ssh-console/zipball/f9f5aa2550a9f5005f4bcb44f4c1cb0cfeac4329",
-                "reference": "f9f5aa2550a9f5005f4bcb44f4c1cb0cfeac4329",
-                "shasum": ""
-            },
-            "require": {
-                "skeeks/cms": "*"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "config-plugin": {
-                    "web": "config/main.php"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "skeeks\\cms\\sshConsole\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Semenov Alexander",
-                    "email": "semenov@skeeks.com"
-                }
-            ],
-            "description": "Ssh console for SkeekS CMS",
-            "homepage": "http://cms.skeeks.com/",
-            "keywords": [
-                "component",
-                "framework",
-                "skeeks",
-                "ssh",
-                "yii"
-            ],
-            "time": "2017-11-07T10:44:19+00:00"
+            "time": "2018-06-07T09:19:00+00:00"
         },
         {
             "name": "skeeks/cms-toolbar",
-            "version": "1.0.0-alpha",
+            "version": "1.0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-toolbar.git",
-                "reference": "f818c7f0881d1288f8e307814a5220d555bba90c"
+                "reference": "1a79bd0ff761b7c46e7d5e62e81e4a5bf6dcece4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-toolbar/zipball/f818c7f0881d1288f8e307814a5220d555bba90c",
-                "reference": "f818c7f0881d1288f8e307814a5220d555bba90c",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-toolbar/zipball/1a79bd0ff761b7c46e7d5e62e81e4a5bf6dcece4",
+                "reference": "1a79bd0ff761b7c46e7d5e62e81e4a5bf6dcece4",
                 "shasum": ""
             },
             "require": {
@@ -3167,7 +3252,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -3184,28 +3269,78 @@
                 "toolbar",
                 "yii"
             ],
-            "time": "2017-11-14T14:58:00+00:00"
+            "time": "2018-04-04T19:49:34+00:00"
         },
         {
-            "name": "skeeks/yii2-ajax-file-upload",
-            "version": "1.0.0",
+            "name": "skeeks/cms-user-personal-area",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/skeeks-semenov/yii2-ajax-file-upload.git",
-                "reference": "57e70e52eacd8e30d41d21b64358794c20fa1dc2"
+                "url": "https://github.com/skeeks-cms/cms-user-personal-area.git",
+                "reference": "f989eb6f1243af1c95522c7bd097227fb05316fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-ajax-file-upload/zipball/57e70e52eacd8e30d41d21b64358794c20fa1dc2",
-                "reference": "57e70e52eacd8e30d41d21b64358794c20fa1dc2",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-user-personal-area/zipball/f989eb6f1243af1c95522c7bd097227fb05316fa",
+                "reference": "f989eb6f1243af1c95522c7bd097227fb05316fa",
                 "shasum": ""
             },
             "require": {
-                "2amigos/yii2-file-upload-widget": "*",
-                "skeeks/yii2-imagine": "*",
-                "skeeks/yii2-sx": "*",
-                "yiisoft/yii2": "*",
-                "yiisoft/yii2-httpclient": "*"
+                "skeeks/cms": "^5.0.4 || dev-master"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "config-plugin": {
+                    "web": "src/config/web.php"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\cms\\upa\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                }
+            ],
+            "description": "Priveate for SkeekS CMS",
+            "homepage": "https://cms.skeeks.com/",
+            "keywords": [
+                "cms",
+                "component",
+                "framework",
+                "skeeks",
+                "yii",
+                "yii2"
+            ],
+            "time": "2018-05-21T19:51:51+00:00"
+        },
+        {
+            "name": "skeeks/yii2-ajax-file-upload",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-semenov/yii2-ajax-file-upload.git",
+                "reference": "45955a8242fb3cae8360fa7a2c6ac4e8a03c946e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-ajax-file-upload/zipball/45955a8242fb3cae8360fa7a2c6ac4e8a03c946e",
+                "reference": "45955a8242fb3cae8360fa7a2c6ac4e8a03c946e",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-file-upload-widget": "~1.0.8",
+                "skeeks/yii2-imagine": "^2.0.1",
+                "skeeks/yii2-sx": "^1.3.0",
+                "yiisoft/yii2": "^2.0.13",
+                "yiisoft/yii2-httpclient": "~2.0.0"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -3215,7 +3350,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -3226,31 +3361,31 @@
             "description": "Yii2 files upload",
             "homepage": "https://cms.skeeks.com/",
             "keywords": [
-                "component",
                 "framework",
                 "skeeks",
+                "widget",
                 "yii"
             ],
-            "time": "2017-08-31T19:45:02+00:00"
+            "time": "2018-11-04T06:46:15+00:00"
         },
         {
             "name": "skeeks/yii2-assets-auto-compress",
-            "version": "1.3.1.2",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-assets-auto-compress.git",
-                "reference": "8d3df2f0a50ddde301773e8b40fc48a45363db3b"
+                "reference": "49512237234fd54fc13067bb52059856ec6ba140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-assets-auto-compress/zipball/8d3df2f0a50ddde301773e8b40fc48a45363db3b",
-                "reference": "8d3df2f0a50ddde301773e8b40fc48a45363db3b",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-assets-auto-compress/zipball/49512237234fd54fc13067bb52059856ec6ba140",
+                "reference": "49512237234fd54fc13067bb52059856ec6ba140",
                 "shasum": ""
             },
             "require": {
-                "mrclay/minify": "*",
-                "natxet/cssmin": "*",
-                "tedivm/jshrink": "*",
+                "mrclay/minify": "^3.0.3",
+                "natxet/cssmin": "^3.0.6",
+                "tedivm/jshrink": "^1.3.0",
                 "yiisoft/yii2": "^2",
                 "yiisoft/yii2-httpclient": "^2"
             },
@@ -3258,59 +3393,6 @@
             "autoload": {
                 "psr-4": {
                     "skeeks\\yii2\\assetsAuto\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Semenov Alexander",
-                    "email": "semenov@skeeks.com"
-                },
-                {
-                    "name": "SkeekS",
-                    "email": "support@skeeks.com",
-                    "homepage": "https://skeeks.com"
-                }
-            ],
-            "description": "Automatically compile and merge files js + css + html in yii2 project",
-            "homepage": "http://www.skeeks.com/",
-            "keywords": [
-                "JS",
-                "Sx",
-                "app",
-                "assets",
-                "auto assets",
-                "css",
-                "framework",
-                "skeeks",
-                "yii"
-            ],
-            "time": "2017-10-05T13:42:22+00:00"
-        },
-        {
-            "name": "skeeks/yii2-ckeditor",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/skeeks-semenov/yii2-ckeditor.git",
-                "reference": "b8a53845972e2dceeb36edb82e448e77984ef63d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-ckeditor/zipball/b8a53845972e2dceeb36edb82e448e77984ef63d",
-                "reference": "b8a53845972e2dceeb36edb82e448e77984ef63d",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "skeeks\\yii2\\ckeditor\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3325,7 +3407,60 @@
                 {
                     "name": "SkeekS",
                     "email": "support@skeeks.com",
-                    "homepage": "http://www.skeeks.com"
+                    "homepage": "https://skeeks.com"
+                }
+            ],
+            "description": "Automatically compile and merge files js + css + html in yii2 project",
+            "homepage": "https://www.skeeks.com/",
+            "keywords": [
+                "JS",
+                "Sx",
+                "app",
+                "assets",
+                "auto assets",
+                "css",
+                "framework",
+                "skeeks",
+                "yii"
+            ],
+            "time": "2018-06-07T10:04:05+00:00"
+        },
+        {
+            "name": "skeeks/yii2-ckeditor",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-semenov/yii2-ckeditor.git",
+                "reference": "3e71d955dd8c534b5a835b49ea4792d018257ca8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-ckeditor/zipball/3e71d955dd8c534b5a835b49ea4792d018257ca8",
+                "reference": "3e71d955dd8c534b5a835b49ea4792d018257ca8",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "^2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\yii2\\ckeditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                },
+                {
+                    "name": "SkeekS",
+                    "email": "support@skeeks.com",
+                    "homepage": "https://skeeks.com"
                 }
             ],
             "description": "CKEditor extension for Yii2.",
@@ -3334,7 +3469,51 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-12-18T15:18:23+00:00"
+            "time": "2018-05-28T09:31:30+00:00"
+        },
+        {
+            "name": "skeeks/yii2-config",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-semenov/yii2-config.git",
+                "reference": "60645f4219bd1cd5ac1a01d56f0874fc6b419897"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-config/zipball/60645f4219bd1cd5ac1a01d56f0874fc6b419897",
+                "reference": "60645f4219bd1cd5ac1a01d56f0874fc6b419897",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "^2.0.10"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\yii2\\config\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                }
+            ],
+            "description": "Form package for SkeekS CMS",
+            "homepage": "https://cms.skeeks.com/",
+            "keywords": [
+                "component",
+                "config",
+                "framework",
+                "skeeks",
+                "yii"
+            ],
+            "time": "2018-05-21T18:34:37+00:00"
         },
         {
             "name": "skeeks/yii2-curl",
@@ -3384,6 +3563,50 @@
             "time": "2017-05-08T17:51:14+00:00"
         },
         {
+            "name": "skeeks/yii2-form",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-semenov/yii2-form.git",
+                "reference": "8af963bcafc8bac1020d94ff9db030e2ebf82835"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-form/zipball/8af963bcafc8bac1020d94ff9db030e2ebf82835",
+                "reference": "8af963bcafc8bac1020d94ff9db030e2ebf82835",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "^2.0.10"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\yii2\\form\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                }
+            ],
+            "description": "Form package for SkeekS CMS",
+            "homepage": "https://cms.skeeks.com/",
+            "keywords": [
+                "Agent",
+                "component",
+                "framework",
+                "skeeks",
+                "yii"
+            ],
+            "time": "2018-05-23T06:49:43+00:00"
+        },
+        {
             "name": "skeeks/yii2-imagine",
             "version": "2.0.1",
             "source": {
@@ -3426,6 +3649,56 @@
                 "yii2"
             ],
             "time": "2015-02-15T17:09:04+00:00"
+        },
+        {
+            "name": "skeeks/yii2-jquery-contextmenu",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skeeks-semenov/yii2-jquery-contextmenu.git",
+                "reference": "1f35d0b183a64de3ec2e3f3f8fac806bdd030a13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-jquery-contextmenu/zipball/1f35d0b183a64de3ec2e3f3f8fac806bdd030a13",
+                "reference": "1f35d0b183a64de3ec2e3f3f8fac806bdd030a13",
+                "shasum": ""
+            },
+            "require": {
+                "npm-asset/jquery-contextmenu": "^2.6",
+                "yiisoft/yii2": "^2"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "skeeks\\yii2\\contextmenu\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Semenov Alexander",
+                    "email": "semenov@skeeks.com"
+                },
+                {
+                    "name": "SkeekS",
+                    "email": "support@skeeks.com",
+                    "homepage": "https://skeeks.com"
+                }
+            ],
+            "description": "jQuery contextMenu plugin & polyfill for yii2",
+            "homepage": "https://skeeks.com/",
+            "keywords": [
+                "cms",
+                "framework",
+                "skeeks",
+                "yii",
+                "yii2"
+            ],
+            "time": "2018-05-21T21:16:42+00:00"
         },
         {
             "name": "skeeks/yii2-slug-behavior",
@@ -3478,16 +3751,16 @@
         },
         {
             "name": "skeeks/yii2-sx",
-            "version": "1.3.0.1",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-sx.git",
-                "reference": "9207d5a24c92ec2214ce4854be84f8d5660c2b96"
+                "reference": "fc2cf1bc09984a2c8811d3440d2f62a75d1ddac5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-sx/zipball/9207d5a24c92ec2214ce4854be84f8d5660c2b96",
-                "reference": "9207d5a24c92ec2214ce4854be84f8d5660c2b96",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-sx/zipball/fc2cf1bc09984a2c8811d3440d2f62a75d1ddac5",
+                "reference": "fc2cf1bc09984a2c8811d3440d2f62a75d1ddac5",
                 "shasum": ""
             },
             "require": {
@@ -3511,7 +3784,7 @@
                 }
             ],
             "description": "Javascript framework by SkeekS",
-            "homepage": "http://skeeks.com/",
+            "homepage": "https://skeeks.com/",
             "keywords": [
                 "Sx",
                 "app",
@@ -3519,7 +3792,7 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2017-11-04T09:39:42+00:00"
+            "time": "2018-05-21T17:12:14+00:00"
         },
         {
             "name": "skeeks/yii2-template-boomerang",
@@ -3567,20 +3840,20 @@
         },
         {
             "name": "skeeks/yii2-widget-chosen",
-            "version": "1.2.0",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-widget-chosen.git",
-                "reference": "5a48822e9852a808a736286843bb0b0d2eb1378a"
+                "reference": "3ff304069bdff156957cc6b155780cb0e9e596fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-widget-chosen/zipball/5a48822e9852a808a736286843bb0b0d2eb1378a",
-                "reference": "5a48822e9852a808a736286843bb0b0d2eb1378a",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-widget-chosen/zipball/3ff304069bdff156957cc6b155780cb0e9e596fc",
+                "reference": "3ff304069bdff156957cc6b155780cb0e9e596fc",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/chosen": "^1.8",
+                "bower-asset/chosen": "1.8.2",
                 "yiisoft/yii2": "*"
             },
             "type": "yii2-extension",
@@ -3591,7 +3864,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD 3-Clause"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -3610,25 +3883,25 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2017-11-04T14:13:27+00:00"
+            "time": "2018-07-13T09:02:23+00:00"
         },
         {
             "name": "skeeks/yii2-widget-codemirror",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-widget-codemirror.git",
-                "reference": "c00145fca8b1ab39ac39584625de92c5f6636f8c"
+                "reference": "8abca910e8a5072ccf97c09673b3f07db8423140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-widget-codemirror/zipball/c00145fca8b1ab39ac39584625de92c5f6636f8c",
-                "reference": "c00145fca8b1ab39ac39584625de92c5f6636f8c",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-widget-codemirror/zipball/8abca910e8a5072ccf97c09673b3f07db8423140",
+                "reference": "8abca910e8a5072ccf97c09673b3f07db8423140",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/codemirror": "*",
-                "yiisoft/yii2": "*"
+                "bower-asset/codemirror": "=5.19.0",
+                "yiisoft/yii2": "^2.0.13"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -3654,7 +3927,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2015-11-07T21:51:11+00:00"
+            "time": "2018-09-28T07:04:12+00:00"
         },
         {
             "name": "skeeks/yii2-widget-highcharts",
@@ -3747,16 +4020,16 @@
         },
         {
             "name": "skeeks/yii2-ya-slug",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-ya-slug.git",
-                "reference": "0f49e016dd850f4bf8d035c3f6441975db8a05b8"
+                "reference": "3c1733b8a138b44a32a5efae5ada38331abbc392"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-ya-slug/zipball/0f49e016dd850f4bf8d035c3f6441975db8a05b8",
-                "reference": "0f49e016dd850f4bf8d035c3f6441975db8a05b8",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-ya-slug/zipball/3c1733b8a138b44a32a5efae5ada38331abbc392",
+                "reference": "3c1733b8a138b44a32a5efae5ada38331abbc392",
                 "shasum": ""
             },
             "require": {
@@ -3771,7 +4044,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-3.0+"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -3792,20 +4065,20 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-11-08T14:29:42+00:00"
+            "time": "2018-07-04T21:06:50+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.0.2",
+            "version": "v6.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc"
+                "reference": "8ddcb66ac10c392d3beb54829eef8ac1438595f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/412333372fb6c8ffb65496a2bbd7321af75733fc",
-                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/8ddcb66ac10c392d3beb54829eef8ac1438595f4",
+                "reference": "8ddcb66ac10c392d3beb54829eef8ac1438595f4",
                 "shasum": ""
             },
             "require": {
@@ -3816,10 +4089,14 @@
                 "mockery/mockery": "~0.9.1",
                 "symfony/phpunit-bridge": "~3.3@dev"
             },
+            "suggest": {
+                "ext-intl": "Needed to support internationalized email addresses",
+                "true/punycode": "Needed to support internationalized email addresses, if ext-intl is not installed"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0-dev"
+                    "dev-master": "6.1-dev"
                 }
             },
             "autoload": {
@@ -3841,30 +4118,30 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.symfony.com",
+            "homepage": "https://swiftmailer.symfony.com",
             "keywords": [
                 "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2017-09-30T22:39:41+00:00"
+            "time": "2018-09-11T07:12:52+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v3.3.6",
+            "version": "v3.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "07432804942b9f6dd7b7377faf9920af5f95d70a"
+                "reference": "104b5acd605e3a7bd3ee92423540adb86f33d356"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/07432804942b9f6dd7b7377faf9920af5f95d70a",
-                "reference": "07432804942b9f6dd7b7377faf9920af5f95d70a",
+                "url": "https://api.github.com/repos/symfony/process/zipball/104b5acd605e3a7bd3ee92423540adb86f33d356",
+                "reference": "104b5acd605e3a7bd3ee92423540adb86f33d356",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": "^5.5.9|>=7.0.8"
             },
             "type": "library",
             "extra": {
@@ -3896,29 +4173,29 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-13T13:05:09+00:00"
+            "time": "2018-01-29T09:02:23+00:00"
         },
         {
             "name": "tedivm/jshrink",
-            "version": "v1.2.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tedious/JShrink.git",
-                "reference": "667e99774d230525d4d3dc2a50da7ba6b1d56bad"
+                "reference": "21254058dc3ce6aba6bef458cff4bfa25cf8b198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tedious/JShrink/zipball/667e99774d230525d4d3dc2a50da7ba6b1d56bad",
-                "reference": "667e99774d230525d4d3dc2a50da7ba6b1d56bad",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/21254058dc3ce6aba6bef458cff4bfa25cf8b198",
+                "reference": "21254058dc3ce6aba6bef458cff4bfa25cf8b198",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6|^7.0"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "0.4.0",
-                "phpunit/phpunit": "4.0.*",
-                "satooshi/php-coveralls": "^0.7.0"
+                "friendsofphp/php-cs-fixer": "^2.8",
+                "php-coveralls/php-coveralls": "^1.1.0",
+                "phpunit/phpunit": "^6"
             },
             "type": "library",
             "autoload": {
@@ -3942,20 +4219,20 @@
                 "javascript",
                 "minifier"
             ],
-            "time": "2017-05-30T02:59:46+00:00"
+            "time": "2018-09-16T00:02:51+00:00"
         },
         {
             "name": "tubalmartin/cssmin",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port.git",
-                "reference": "1c7ae93cf6b392d4dae5c4ae18979918413af16e"
+                "reference": "3cbf557f4079d83a06f9c3ff9b957c022d7805cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tubalmartin/YUI-CSS-compressor-PHP-port/zipball/1c7ae93cf6b392d4dae5c4ae18979918413af16e",
-                "reference": "1c7ae93cf6b392d4dae5c4ae18979918413af16e",
+                "url": "https://api.github.com/repos/tubalmartin/YUI-CSS-compressor-PHP-port/zipball/3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
+                "reference": "3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
                 "shasum": ""
             },
             "require": {
@@ -3995,20 +4272,20 @@
                 "minify",
                 "yui"
             ],
-            "time": "2017-05-16T13:45:26+00:00"
+            "time": "2018-01-15T15:26:51+00:00"
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.13",
+            "version": "2.0.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "9f82b8f0df9adb4b8a410be5aaa97818153689d9"
+                "reference": "ed3a9e1c4abe206e1c3ce48a6b3624119b79850d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/9f82b8f0df9adb4b8a410be5aaa97818153689d9",
-                "reference": "9f82b8f0df9adb4b8a410be5aaa97818153689d9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ed3a9e1c4abe206e1c3ce48a6b3624119b79850d",
+                "reference": "ed3a9e1c4abe206e1c3ce48a6b3624119b79850d",
                 "shasum": ""
             },
             "require": {
@@ -4095,20 +4372,20 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-11-02T22:09:29+00:00"
+            "time": "2018-03-21T18:36:53+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "02a54d868343ed11d02f0f0f8cbbecb590e0cb3f"
+                "reference": "3f49c47924bb9fa5363c3fc7b073d954168cf438"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/02a54d868343ed11d02f0f0f8cbbecb590e0cb3f",
-                "reference": "02a54d868343ed11d02f0f0f8cbbecb590e0cb3f",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/3f49c47924bb9fa5363c3fc7b073d954168cf438",
+                "reference": "3f49c47924bb9fa5363c3fc7b073d954168cf438",
                 "shasum": ""
             },
             "require": {
@@ -4123,7 +4400,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\bootstrap\\": ""
+                    "yii\\bootstrap\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4132,8 +4409,22 @@
             ],
             "authors": [
                 {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/"
+                },
+                {
+                    "name": "Antonio Ramirez",
+                    "email": "amigo.cobos@gmail.com"
+                },
+                {
                     "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com"
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/"
                 }
             ],
             "description": "The Twitter Bootstrap extension for the Yii framework",
@@ -4141,20 +4432,20 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2017-10-09T19:48:22+00:00"
+            "time": "2018-02-16T10:41:52+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
-            "version": "2.0.5",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2"
+                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2",
-                "reference": "3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/1439e78be1218c492e6cde251ed87d3f128b9534",
+                "reference": "1439e78be1218c492e6cde251ed87d3f128b9534",
                 "shasum": ""
             },
             "require": {
@@ -4183,6 +4474,10 @@
                 {
                     "name": "Qiang Xue",
                     "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
                 }
             ],
             "description": "The composer plugin for Yii extension installer",
@@ -4191,20 +4486,20 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2016-12-20T13:26:02+00:00"
+            "time": "2018-07-05T15:44:47+00:00"
         },
         {
             "name": "yiisoft/yii2-httpclient",
-            "version": "2.0.5",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-httpclient.git",
-                "reference": "0417cb05f810890297f79877ccf51865834fb394"
+                "reference": "360b0f9c0855709b3370d486a4de435022fb3926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/0417cb05f810890297f79877ccf51865834fb394",
-                "reference": "0417cb05f810890297f79877ccf51865834fb394",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/360b0f9c0855709b3370d486a4de435022fb3926",
+                "reference": "360b0f9c0855709b3370d486a4de435022fb3926",
                 "shasum": ""
             },
             "require": {
@@ -4218,7 +4513,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\httpclient\\": ""
+                    "yii\\httpclient\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4238,7 +4533,7 @@
                 "httpclient",
                 "yii2"
             ],
-            "time": "2017-11-03T11:22:03+00:00"
+            "time": "2018-09-23T21:53:35+00:00"
         },
         {
             "name": "yiisoft/yii2-jui",
@@ -4292,31 +4587,31 @@
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
-            "version": "2.1.0",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-swiftmailer.git",
-                "reference": "563570c9aa19ca47c1b22e3032983229378e9274"
+                "reference": "09659a55959f9e64b8178d842b64a9ffae42b994"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/563570c9aa19ca47c1b22e3032983229378e9274",
-                "reference": "563570c9aa19ca47c1b22e3032983229378e9274",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/09659a55959f9e64b8178d842b64a9ffae42b994",
+                "reference": "09659a55959f9e64b8178d842b64a9ffae42b994",
                 "shasum": ""
             },
             "require": {
                 "swiftmailer/swiftmailer": "~6.0",
-                "yiisoft/yii2": "~2.0.4"
+                "yiisoft/yii2": ">=2.0.4"
             },
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\swiftmailer\\": ""
+                    "yii\\swiftmailer\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4338,26 +4633,26 @@
                 "swiftmailer",
                 "yii2"
             ],
-            "time": "2017-08-04T10:48:17+00:00"
+            "time": "2018-09-23T22:00:47+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "yiisoft/yii2-debug",
-            "version": "2.0.12",
+            "version": "2.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "93082f46d3568b4431a26f264e0d16a12c42bd50"
+                "reference": "dc5a4a8529de1a41dbb037dbabf1f3f93002f21d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/93082f46d3568b4431a26f264e0d16a12c42bd50",
-                "reference": "93082f46d3568b4431a26f264e0d16a12c42bd50",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/dc5a4a8529de1a41dbb037dbabf1f3f93002f21d",
+                "reference": "dc5a4a8529de1a41dbb037dbabf1f3f93002f21d",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "~2.0.11",
+                "yiisoft/yii2": "~2.0.13",
                 "yiisoft/yii2-bootstrap": "~2.0.0"
             },
             "type": "yii2-extension",
@@ -4368,7 +4663,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\debug\\": ""
+                    "yii\\debug\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4387,7 +4682,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-10-09T20:30:01+00:00"
+            "time": "2018-09-23T21:41:04+00:00"
         }
     ],
     "aliases": [],

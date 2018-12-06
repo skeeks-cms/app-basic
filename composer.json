@@ -4,7 +4,7 @@
     "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
     "homepage": "https://cms.skeeks.com",
     "type": "project",
-    "license": "GPL-3.0+",
+    "license": "BSD-3-Clause",
     "support": {
         "issues": "https://cms.skeeks.com",
         "docs": "https://cms.skeeks.com/docs",
@@ -17,9 +17,8 @@
         }
     ],
     "require": {
-        "skeeks/cms-basic": "~1.0.0",
-        "skeeks/cms-ssh-console": "~1.1.0",
-        "skeeks/yii2-template-boomerang": "~1.0.0"
+        "skeeks/cms-basic": "^1.0.0",
+        "skeeks/yii2-template-boomerang": "^1.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*"
@@ -74,11 +73,11 @@
             ],
             "web-dev": [
                 "$web",
-                "?frontend/config/env/dev/main.php"
+                "?frontend/config/env/main-dev.php"
             ],
             "web-prod": [
                 "$web",
-                "?frontend/config/env/prod/main.php"
+                "?frontend/config/env/main-prod.php"
             ],
             "console": [
                 "common/config/main.php",
@@ -87,11 +86,11 @@
             ],
             "console-dev": [
                 "$console",
-                "?console/config/env/dev/main.php"
+                "?console/config/env/main-dev.php"
             ],
             "console-prod": [
                 "$console",
-                "?console/config/env/prod/main.php"
+                "?console/config/env/main-prod.php"
             ]
         }
     },
