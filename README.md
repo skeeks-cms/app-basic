@@ -5,7 +5,6 @@ Base app on SkeekS CMS (Yii2)
 
 [![Latest Stable Version](https://poser.pugx.org/skeeks/app-basic/v/stable.png)](https://packagist.org/packages/skeeks/app-basic)
 [![Total Downloads](https://poser.pugx.org/skeeks/app-basic/downloads.png)](https://packagist.org/packages/skeeks/app-basic)
-[![Dependency Status](https://www.versioneye.com/php/skeeks:app-basic/dev-master/badge.png)](https://www.versioneye.com/php/skeeks:app-basic/dev-master)
 
 
 Links
