@@ -18,7 +18,7 @@ class m171121_102106_db_init extends \yii\db\Migration
     public function safeUp()
     {
         if ($this->db->driverName === 'mysql') {
-            $version = 'db__2018-12-06_07-03-10.sql';
+            $version = 'db__2020-01-13_07-55-07.sql';
             $filePath = dirname(__DIR__) . "/db/{$version}";
             $file = fopen($filePath, "r");
             if (!$file) {

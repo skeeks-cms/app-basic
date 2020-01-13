@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "skeeks/cms-basic": "^1.0.0",
+        "skeeks/cms-basic": "^1.1.0",
         "skeeks/yii2-template-boomerang": "^1.0.0"
     },
     "require-dev": {
